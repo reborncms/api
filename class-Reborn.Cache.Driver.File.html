@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Reborn\Cache\Driver\File | Reborn CMS 2.0 API</title>
+
+	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
+	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
+
+</head>
+
+<body>
+
+<div id="top-bar">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" placeholder="Search..." class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Reborn.Cache.Driver.html" title="Summary of Reborn\Cache\Driver"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<div id="container">
+	<div id="left">
+		<div id="menu">
+			<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+			<div id="groups">
+				<h3>Namespaces</h3>
+				<ul>
+					<li><a href="namespace-None.html">None</a>
+							</li>
+					<li><a href="namespace-PHP.html">PHP</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
+							<ul>
+					<li class="active"><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Config.html">Config</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.html">Connector<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.DB.html">DB</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.Log.html">Log<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Console.html">Console</a>
+							</li>
+					<li><a href="namespace-Reborn.Cores.html">Cores</a>
+							</li>
+					<li><a href="namespace-Reborn.Dummy.html">Dummy</a>
+							</li>
+					<li><a href="namespace-Reborn.Event.html">Event</a>
+							</li>
+					<li><a href="namespace-Reborn.Exception.html">Exception</a>
+							</li>
+					<li><a href="namespace-Reborn.Filesystem.html">Filesystem</a>
+							</li>
+					<li><a href="namespace-Reborn.FileUpload.html">FileUpload</a>
+							</li>
+					<li><a href="namespace-Reborn.Form.html">Form</a>
+							</li>
+					<li><a href="namespace-Reborn.Http.html">Http</a>
+							</li>
+					<li><a href="namespace-Reborn.Module.html">Module</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.Exception.html">Exception</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.Model.html">Model</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.View.html">View<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
+							</li>
+					<li><a href="namespace-Reborn.Route.html">Route</a>
+							</li>
+					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Util.html">Util</a>
+							</li>
+					<li><a href="namespace-Reborn.Widget.html">Widget</a>
+							</li>
+								</ul></li>
+				</ul>
+			</div>
+
+			<hr />
+
+
+			<div id="elements">
+				<h3>Classes</h3>
+				<ul>
+					<li><a href="class-Reborn.Cache.Driver.Database.html">Database</a></li>
+					<li class="active"><a href="class-Reborn.Cache.Driver.File.html">File</a></li>
+				</ul>
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div id="splitter"></div>
+
+	<div id="right">
+		<div id="rightInner">
+
+<div id="content" class="class">
+	<h1>Class File</h1>
+
+
+	<div class="description">
+	
+<p>File Cache Driver for Reborn</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Reborn\Cache\Driver\File</span></b>			
+			 implements 
+				<a href="class-Reborn.Cache.CacheDriverInterface.html"><span>Reborn\Cache\CacheDriverInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Reborn.html">Reborn</a>\<a href="namespace-Reborn.Cache.html">Cache</a>\<a href="namespace-Reborn.Cache.Driver.html">Driver</a><br />
+		<b>Package:</b> Reborn\Cache<br />
+
+				<b>Author:</b>
+				Myanmar Links Professional Web Development Team<br />
+		<b>Located at</b> <a href="source-class-Reborn.Cache.Driver.File.html#11-272" title="Go to source code">Reborn/Cache/Driver/File.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#41-56" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+<p>Default constructor method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Default constructor method</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set" id="_set">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#58-81" title="Go to source code">set</a>( <span>string <var>$key</var></span>, <span>mixed <var>$value</var></span>, <span>integer <var>$time</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the cache data from given key name with given data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the cache data from given key name with given data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value Data for cache</dd>
+					<dt><var>$time</var></dt>
+					<dd><code>integer</code><br>$time Cache life time(expire)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Reborn.Cache.CacheDriverInterface.html#_set">Reborn\Cache\CacheDriverInterface::set()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#83-106" title="Go to source code">get</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the cache data from given key name</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the cache data from given key name</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Reborn.Cache.CacheDriverInterface.html#_get">Reborn\Cache\CacheDriverInterface::get()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAfterSet" id="_getAfterSet">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAfterSet">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#108-121" title="Go to source code">getAfterSet</a>( <span>string <var>$key</var></span>, <span>mixed <var>$value</var></span>, <span>integer <var>$time</var> = <span class="php-num">10080</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the cache data after given value is set.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the cache data after given value is set.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key Key name for the cache</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value Cache data value</dd>
+					<dt><var>$time</var></dt>
+					<dd><code>integer</code><br>$time Expire time for cache</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Reborn.Cache.CacheDriverInterface.html#_getAfterSet">Reborn\Cache\CacheDriverInterface::getAfterSet()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="has" id="_has">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_has">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#123-136" title="Go to source code">has</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check the given cache is has or not</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check the given cache is has or not</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Reborn.Cache.CacheDriverInterface.html#_has">Reborn\Cache\CacheDriverInterface::has()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#138-149" title="Go to source code">delete</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Delete the cache file</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete the cache file</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key Cache file key name</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Reborn.Cache.CacheDriverInterface.html#_delete">Reborn\Cache\CacheDriverInterface::delete()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteFolder" id="_deleteFolder">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteFolder">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#151-161" title="Go to source code">deleteFolder</a>( <span>string <var>$folder</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Delete the cache by folder. Notice :: Folder name is case sensative.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete the cache by folder. Notice :: Folder name is case sensative.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$folder</var></dt>
+					<dd><code>string</code><br>$folder Cache folder name</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Reborn.Cache.CacheDriverInterface.html#_deleteFolder">Reborn\Cache\CacheDriverInterface::deleteFolder()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setPath" id="_setPath">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setPath">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#163-172" title="Go to source code">setPath</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Cache Folder Path</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Cache Folder Path</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPath" id="_getPath">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPath">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#174-182" title="Go to source code">getPath</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the Cache Folder Path</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the Cache Folder Path</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="keyParse" id="_keyParse">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_keyParse">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#184-203" title="Go to source code">keyParse</a>( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parse the given key to filename and full_file_path</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parse the given key to filename and full_file_path</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="write" id="_write">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_write">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#205-224" title="Go to source code">write</a>( <span>string <var>$path</var></span>, <span>string <var>$filename</var></span>, <span>mixed <var>$value</var></span>, <span>integer <var>$time</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Write the cache file in given path</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write the cache file in given path</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Cache file saving path</dd>
+					<dt><var>$filename</var></dt>
+					<dd><code>string</code><br>$filename Cache file name with file extension</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value Cache data value</dd>
+					<dt><var>$time</var></dt>
+					<dd><code>integer</code><br>$time Cache expire time with minute</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkExpire" id="_checkExpire">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkExpire">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#226-237" title="Go to source code">checkExpire</a>( <span>string <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check the given cache is expire or not</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check the given cache is expire or not</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code><br>$data Cache data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="serializer" id="_serializer">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_serializer">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#239-248" title="Go to source code">serializer</a>( <span>array|object <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Serialize the given data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Serialize the given data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>array|object</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="unserializer" id="_unserializer">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_unserializer">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#250-259" title="Go to source code">unserializer</a>( <span>string <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Unserialize the given data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Unserialize the given data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createFolder" id="_createFolder">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createFolder">#</a>
+		<code><a href="source-class-Reborn.Cache.Driver.File.html#261-270" title="Go to source code">createFolder</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create the folder for cache file</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create the folder for cache file</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="request" id="$request">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Reborn.Http.Request.html">Reborn\Http\Request</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Cache.Driver.File.html#20-25" title="Go to source code"><var>$request</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$request" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Request Object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Request Object</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="path" id="$path">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Cache.Driver.File.html#27-32" title="Go to source code"><var>$path</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$path" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Cache storage file path</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Cache storage file path</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="extension" id="$extension">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Cache.Driver.File.html#34-39" title="Go to source code"><var>$extension</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'.cache'</span></code></td>
+		<td class="description"><div>
+			<a href="#$extension" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>File Extension for cache file</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>File Extension for cache file</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+			<div id="footer">
+				<div id="rb-logo"></div>
+				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

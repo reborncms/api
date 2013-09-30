@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Reborn\Route\Route | Reborn CMS 2.0 API</title>
+
+	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
+	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
+
+</head>
+
+<body>
+
+<div id="top-bar">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" placeholder="Search..." class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Reborn.Route.html" title="Summary of Reborn\Route"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<div id="container">
+	<div id="left">
+		<div id="menu">
+			<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+			<div id="groups">
+				<h3>Namespaces</h3>
+				<ul>
+					<li><a href="namespace-None.html">None</a>
+							</li>
+					<li><a href="namespace-PHP.html">PHP</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+							</li>
+					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Config.html">Config</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.html">Connector<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.DB.html">DB</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.Log.html">Log<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Console.html">Console</a>
+							</li>
+					<li><a href="namespace-Reborn.Cores.html">Cores</a>
+							</li>
+					<li><a href="namespace-Reborn.Dummy.html">Dummy</a>
+							</li>
+					<li><a href="namespace-Reborn.Event.html">Event</a>
+							</li>
+					<li><a href="namespace-Reborn.Exception.html">Exception</a>
+							</li>
+					<li><a href="namespace-Reborn.Filesystem.html">Filesystem</a>
+							</li>
+					<li><a href="namespace-Reborn.FileUpload.html">FileUpload</a>
+							</li>
+					<li><a href="namespace-Reborn.Form.html">Form</a>
+							</li>
+					<li><a href="namespace-Reborn.Http.html">Http</a>
+							</li>
+					<li><a href="namespace-Reborn.Module.html">Module</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.Exception.html">Exception</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.Model.html">Model</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.View.html">View<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.Route.html">Route</a>
+							</li>
+					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Util.html">Util</a>
+							</li>
+					<li><a href="namespace-Reborn.Widget.html">Widget</a>
+							</li>
+								</ul></li>
+				</ul>
+			</div>
+
+			<hr />
+
+
+			<div id="elements">
+				<h3>Classes</h3>
+				<ul>
+					<li><a href="class-Reborn.Route.ControllerMap.html">ControllerMap</a></li>
+					<li><a href="class-Reborn.Route.ControllerResolver.html">ControllerResolver</a></li>
+					<li><a href="class-Reborn.Route.Map.html">Map</a></li>
+					<li class="active"><a href="class-Reborn.Route.Route.html">Route</a></li>
+					<li><a href="class-Reborn.Route.Router.html">Router</a></li>
+				</ul>
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div id="splitter"></div>
+
+	<div id="right">
+		<div id="rightInner">
+
+<div id="content" class="class">
+	<h1>Class Route</h1>
+
+
+	<div class="description">
+	
+<p>Route Class for Reborn</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Reborn.html">Reborn</a>\<a href="namespace-Reborn.Route.html">Route</a><br />
+		<b>Package:</b> Reborn\Route<br />
+
+				<b>Author:</b>
+				Myanmar Links Professional Web Development Team<br />
+		<b>Located at</b> <a href="source-class-Reborn.Route.Route.html#7-250" title="Go to source code">Reborn/Route/Route.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getMap" id="_getMap">
+
+		<td class="attributes"><code>
+			 public static
+			<code><a href="class-Reborn.Route.Map.html">Reborn\Route\Map</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMap">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#37-45" title="Go to source code">getMap</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the Map Object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the Map Object</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Route.Map.html">Reborn\Route\Map</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addNotFound" id="_addNotFound">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addNotFound">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#47-67" title="Go to source code">addNotFound</a>( <span>string <var>$caller</var></span>, <span>string <var>$controller</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$action</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add the 404 route.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add the 404 route.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$caller</var></dt>
+					<dd><code>string</code><br>$caller Module Name (or) Closure Method</dd>
+					<dt><var>$controller</var></dt>
+					<dd><code>string</code><br>$controller Controller Name</dd>
+					<dt><var>$action</var></dt>
+					<dd><code>string</code><br>$action Action Name</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getNotFound" id="_getNotFound">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getNotFound">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#69-84" title="Go to source code">getNotFound</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the 404 route</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the 404 route</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="add" id="_add">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_add">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#86-99" title="Go to source code">add</a>( <span>string <var>$name</var></span>, <span>string <var>$path</var></span>, <span>string <var>$file</var></span>, <span>string <var>$method</var> = <span class="php-quote">'all'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add the new route</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add the new route</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Route name</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Route uri path</dd>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file Action string(Module\Controller::action) [eg: Pages\Pages::index]</dd>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method HTTP method (optional)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#101-113" title="Go to source code">get</a>( <span>string <var>$name</var></span>, <span>string <var>$path</var></span>, <span>string <var>$file</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add the new route for HTTP GET method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add the new route for HTTP GET method</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Route name</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Route uri path</dd>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file Action string(Module\Controller::action) [eg: Pages\Pages::index]</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="post" id="_post">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_post">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#115-127" title="Go to source code">post</a>( <span>string <var>$name</var></span>, <span>string <var>$path</var></span>, <span>string <var>$file</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add the new route for HTTP POST method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add the new route for HTTP POST method</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Route name</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Route uri path</dd>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file Action string(Module\Controller::action) [eg: Pages\Pages::index]</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="put" id="_put">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_put">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#129-141" title="Go to source code">put</a>( <span>string <var>$name</var></span>, <span>string <var>$path</var></span>, <span>string <var>$file</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add the new route for HTTP PUT method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add the new route for HTTP PUT method</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Route name</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Route uri path</dd>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file Action string(Module\Controller::action) [eg: Pages\Pages::index]</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#143-155" title="Go to source code">delete</a>( <span>string <var>$name</var></span>, <span>string <var>$path</var></span>, <span>string <var>$file</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add the new route for HTTP DELETE method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add the new route for HTTP DELETE method</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Route name</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Route uri path</dd>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file Action string(Module\Controller::action) [eg: Pages\Pages::index]</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resources" id="_resources">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resources">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#157-179" title="Go to source code">resources</a>( <span>mixed <var>$resources</var></span>, <span>mixed <var>$controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>REST Resource for Controller. Suport lists -<br />
+- GET {resources} Controller::index()<br />
+- GET {resources}/{id} Controller::view($id)<br />
+- GET {respurces}/new Controller::add()<br />
+- POST {resources} Controller::create()<br />
+- GET {resources}/{id}/edit Controller::edit($id)<br />
+- PUT {resources}/{id} Controller::update($id)<br />
+- DELETE {resources}/{id} Controller::delete($id)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>REST Resource for Controller. Suport lists - - GET {resources}
+Controller::index() - GET {resources}/{id} Controller::view($id) - GET
+{respurces}/new Controller::add() - POST {resources} Controller::create() - GET
+{resources}/{id}/edit Controller::edit($id) - PUT {resources}/{id}
+Controller::update($id) - DELETE {resources}/{id} Controller::delete($id)</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="alias" id="_alias">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_alias">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#181-207" title="Go to source code">alias</a>( <span>string <var>$as</var></span>, <span>string <var>$to</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Route Alias Setter. This method will help to easy way for Theme Developer eg:
+Our site want to referer /news request uri is /blog/category/news
+&lt;code&gt;<br />
+// <a href="http://www.example.com/news">www.example.com/news</a> is same with
+/blog/category/news<br />
+Route::alias('news', 'Blog\Blog::category.news');</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Route Alias Setter. This method will help to easy way for Theme Developer eg:
+Our site want to referer /news request uri is /blog/category/news &lt;code&gt;
+// <a href="http://www.example.com/news">www.example.com/news</a> is same with
+/blog/category/news Route::alias('news', 'Blog\Blog::category.news');</p>
+
+<p>// With Regex Pattern Route::alias('author/{:int}',
+'User\User::profile.$1')</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$as</var></dt>
+					<dd><code>string</code><br>$as Alias Url Path</dd>
+					<dt><var>$to</var></dt>
+					<dd><code>string</code><br>$to Alias is this route</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAlias" id="_getAlias">
+
+		<td class="attributes"><code>
+			 public static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAlias">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#209-223" title="Go to source code">getAlias</a>( <span>string <var>$uri</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Alias route base on given uri</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Alias route base on given uri</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Request uri path</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAll" id="_getAll">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAll">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#225-233" title="Go to source code">getAll</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the all route (route collection)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the all route (route collection)</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getByName" id="_getByName">
+
+		<td class="attributes"><code>
+			 public static
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getByName">#</a>
+		<code><a href="source-class-Reborn.Route.Route.html#235-249" title="Go to source code">getByName</a>( <span>string <var>$name</var></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Get the route by name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the route by name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Route Name</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data Data array for route pattern</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="collection" id="$collection">
+		<td class="attributes"><code>
+			protected static 
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Route.Route.html#16-21" title="Go to source code"><var>$collection</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$collection" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Route Colllection variable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Route Colllection variable</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="alias" id="$alias">
+		<td class="attributes"><code>
+			protected static 
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Route.Route.html#23-28" title="Go to source code"><var>$alias</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$alias" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Route Alias Register variable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Route Alias Register variable</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="notFound" id="$notFound">
+		<td class="attributes"><code>
+			protected static 
+			null|Object
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Route.Route.html#30-35" title="Go to source code"><var>$notFound</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$notFound" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>404 Route Variable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>404 Route Variable</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+			<div id="footer">
+				<div id="rb-logo"></div>
+				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

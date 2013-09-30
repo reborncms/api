@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Reborn\Route\Router | Reborn CMS 2.0 API</title>
+
+	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
+	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
+
+</head>
+
+<body>
+
+<div id="top-bar">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" placeholder="Search..." class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Reborn.Route.html" title="Summary of Reborn\Route"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<div id="container">
+	<div id="left">
+		<div id="menu">
+			<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+			<div id="groups">
+				<h3>Namespaces</h3>
+				<ul>
+					<li><a href="namespace-None.html">None</a>
+							</li>
+					<li><a href="namespace-PHP.html">PHP</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+							</li>
+					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Config.html">Config</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.html">Connector<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.DB.html">DB</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.Log.html">Log<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Console.html">Console</a>
+							</li>
+					<li><a href="namespace-Reborn.Cores.html">Cores</a>
+							</li>
+					<li><a href="namespace-Reborn.Dummy.html">Dummy</a>
+							</li>
+					<li><a href="namespace-Reborn.Event.html">Event</a>
+							</li>
+					<li><a href="namespace-Reborn.Exception.html">Exception</a>
+							</li>
+					<li><a href="namespace-Reborn.Filesystem.html">Filesystem</a>
+							</li>
+					<li><a href="namespace-Reborn.FileUpload.html">FileUpload</a>
+							</li>
+					<li><a href="namespace-Reborn.Form.html">Form</a>
+							</li>
+					<li><a href="namespace-Reborn.Http.html">Http</a>
+							</li>
+					<li><a href="namespace-Reborn.Module.html">Module</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.Exception.html">Exception</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.Model.html">Model</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.View.html">View<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.Route.html">Route</a>
+							</li>
+					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Util.html">Util</a>
+							</li>
+					<li><a href="namespace-Reborn.Widget.html">Widget</a>
+							</li>
+								</ul></li>
+				</ul>
+			</div>
+
+			<hr />
+
+
+			<div id="elements">
+				<h3>Classes</h3>
+				<ul>
+					<li><a href="class-Reborn.Route.ControllerMap.html">ControllerMap</a></li>
+					<li><a href="class-Reborn.Route.ControllerResolver.html">ControllerResolver</a></li>
+					<li><a href="class-Reborn.Route.Map.html">Map</a></li>
+					<li><a href="class-Reborn.Route.Route.html">Route</a></li>
+					<li class="active"><a href="class-Reborn.Route.Router.html">Router</a></li>
+				</ul>
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div id="splitter"></div>
+
+	<div id="right">
+		<div id="rightInner">
+
+<div id="content" class="class">
+	<h1>Class Router</h1>
+
+
+	<div class="description">
+	
+<p>Router Class for Reborn</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Reborn.html">Reborn</a>\<a href="namespace-Reborn.Route.html">Route</a><br />
+		<b>Package:</b> Reborn\Route<br />
+
+				<b>Author:</b>
+				Myanmar Links Professional Web Development Team<br />
+		<b>Located at</b> <a href="source-class-Reborn.Route.Router.html#16-307" title="Go to source code">Reborn/Route/Router.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Reborn.Route.Router.html#52-74" title="Go to source code">__construct</a>( <span><code><a href="class-Reborn.Cores.Application.html">Reborn\Cores\Application</a></code> <var>$app</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Constructor Method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor Method</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dispatch" id="_dispatch">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dispatch">#</a>
+		<code><a href="source-class-Reborn.Route.Router.html#76-151" title="Go to source code">dispatch</a>( )</code>
+
+		<div class="description short">
+			
+<p>Dispatch the route for Reborn CMS</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Dispatch the route for Reborn CMS</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="notFound" id="_notFound">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_notFound">#</a>
+		<code><a href="source-class-Reborn.Route.Router.html#153-171" title="Go to source code">notFound</a>( )</code>
+
+		<div class="description short">
+			
+<p>Method for Page Not Found Route</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Method for Page Not Found Route</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="detectController" id="_detectController">
+
+		<td class="attributes"><code>
+			 protected 
+			array|boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_detectController">#</a>
+		<code><a href="source-class-Reborn.Route.Router.html#173-258" title="Go to source code">detectController</a>( )</code>
+
+		<div class="description short">
+			
+<p>Find the Controller and action when not found in Route Collection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Find the Controller and action when not found in Route Collection</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array|boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callbackController" id="_callbackController">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-Reborn.Http.Response.html">Reborn\Http\Response</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callbackController">#</a>
+		<code><a href="source-class-Reborn.Route.Router.html#260-275" title="Go to source code">callbackController</a>( <span><code><a href="class-Reborn.Route.Map.html">Reborn\Route\Map</a></code> <var>$route</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Call the given controller's action(method).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call the given controller's action(method).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$route</var></dt>
+					<dd><code><code><a href="class-Reborn.Route.Map.html">Reborn\Route\Map</a></code></code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Http.Response.html">Reborn\Http\Response</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addModuleRoute" id="_addModuleRoute">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addModuleRoute">#</a>
+		<code><a href="source-class-Reborn.Route.Router.html#277-288" title="Go to source code">addModuleRoute</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add the route file from the module</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add the route file from the module</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Module path</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkCSRF" id="_checkCSRF">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean|throw
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkCSRF">#</a>
+		<code><a href="source-class-Reborn.Route.Router.html#290-306" title="Go to source code">checkCSRF</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check the CSRF Token from Request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check the CSRF Token from Request.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean|throw</code><br>TokenNotMatchException<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="request" id="$request">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Reborn.Http.Request.html">Reborn\Http\Request</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Route.Router.html#24-29" title="Go to source code"><var>$request</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$request" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Variable for request obj</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Variable for request obj</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="mapper" id="$mapper">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Reborn.Route.ControllerMap.html">Reborn\Route\ControllerMap</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Route.Router.html#31-36" title="Go to source code"><var>$mapper</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$mapper" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Controller Mapper Object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Controller Mapper Object</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="admin" id="$admin">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Route.Router.html#38-43" title="Go to source code"><var>$admin</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$admin" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Variable for admin panel URI</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Variable for admin panel URI</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="app" id="$app">
+		<td class="attributes"><code>
+			protected  
+			Reborn\Core\Application
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Route.Router.html#45-50" title="Go to source code"><var>$app</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$app" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Applicaion Object</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Applicaion Object</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+			<div id="footer">
+				<div id="rb-logo"></div>
+				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

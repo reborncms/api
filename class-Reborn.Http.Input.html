@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Reborn\Http\Input | Reborn CMS 2.0 API</title>
+
+	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
+	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
+
+</head>
+
+<body>
+
+<div id="top-bar">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" placeholder="Search..." class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Reborn.Http.html" title="Summary of Reborn\Http"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<div id="container">
+	<div id="left">
+		<div id="menu">
+			<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+			<div id="groups">
+				<h3>Namespaces</h3>
+				<ul>
+					<li><a href="namespace-None.html">None</a>
+							</li>
+					<li><a href="namespace-PHP.html">PHP</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+							</li>
+					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Config.html">Config</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.html">Connector<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.DB.html">DB</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.Log.html">Log<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Console.html">Console</a>
+							</li>
+					<li><a href="namespace-Reborn.Cores.html">Cores</a>
+							</li>
+					<li><a href="namespace-Reborn.Dummy.html">Dummy</a>
+							</li>
+					<li><a href="namespace-Reborn.Event.html">Event</a>
+							</li>
+					<li><a href="namespace-Reborn.Exception.html">Exception</a>
+							</li>
+					<li><a href="namespace-Reborn.Filesystem.html">Filesystem</a>
+							</li>
+					<li><a href="namespace-Reborn.FileUpload.html">FileUpload</a>
+							</li>
+					<li><a href="namespace-Reborn.Form.html">Form</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.Http.html">Http</a>
+							</li>
+					<li><a href="namespace-Reborn.Module.html">Module</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.Exception.html">Exception</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.Model.html">Model</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.View.html">View<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
+							</li>
+					<li><a href="namespace-Reborn.Route.html">Route</a>
+							</li>
+					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Util.html">Util</a>
+							</li>
+					<li><a href="namespace-Reborn.Widget.html">Widget</a>
+							</li>
+								</ul></li>
+				</ul>
+			</div>
+
+			<hr />
+
+
+			<div id="elements">
+				<h3>Classes</h3>
+				<ul>
+					<li><a href="class-Reborn.Http.Cookie.html">Cookie</a></li>
+					<li class="active"><a href="class-Reborn.Http.Input.html">Input</a></li>
+					<li><a href="class-Reborn.Http.Redirect.html">Redirect</a></li>
+					<li><a href="class-Reborn.Http.Request.html">Request</a></li>
+					<li><a href="class-Reborn.Http.Response.html">Response</a></li>
+					<li><a href="class-Reborn.Http.Uri.html">Uri</a></li>
+				</ul>
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div id="splitter"></div>
+
+	<div id="right">
+		<div id="rightInner">
+
+<div id="content" class="class">
+	<h1>Class Input</h1>
+
+
+	<div class="description">
+	
+<p>Input Class for Reborn</p>
+
+<p>You can use to pick up HTTP Request ($_GET, $_POST, $_SERVER).</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Reborn.html">Reborn</a>\<a href="namespace-Reborn.Http.html">Http</a><br />
+		<b>Package:</b> Reborn\Http<br />
+
+				<b>Author:</b>
+				Myanmar Links Professional Web Development Team<br />
+		<b>Located at</b> <a href="source-class-Reborn.Http.Input.html#7-252" title="Go to source code">Reborn/Http/Input.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getIns" id="_getIns">
+
+		<td class="attributes"><code>
+			 public static
+			<code><a href="class-Reborn.Http.Request.html">Reborn\Http\Request</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getIns">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#25-37" title="Go to source code">getIns</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the Request Instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the Request Instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Http.Request.html">Reborn\Http\Request</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="method" id="_method">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_method">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#39-47" title="Go to source code">method</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get request method is POST or GET</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get request method is POST or GET</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isPost" id="_isPost">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isPost">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#49-57" title="Go to source code">isPost</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check the request method is POST</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check the request method is POST</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isGet" id="_isGet">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isGet">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#59-67" title="Go to source code">isGet</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check the request method is GET</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check the request method is GET</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#69-94" title="Go to source code">get</a>( <span>string <var>$key</var></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get request param from $_GET (or) $_POST. $_GET (or) $_POST is base on
+request method. If you want to get all Input Field, use '*' key. example:</p>
+
+<pre>
+<span
+class="php-comment">// Return all input field</span>
+Input::get(<span
+class="php-quote">'*'</span>);
+<span
+class="php-comment">// Return input field by key username</span>
+Input::get(<span
+class="php-quote">'username'</span>);
+<span
+class="php-comment">// Return default value when the key name is null</span>
+Input::get(<span
+class="php-quote">'age'</span>, <span class="php-num">26</span>);
+</pre>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get request param from $_GET (or) $_POST. $_GET (or) $_POST is base on
+request method. If you want to get all Input Field, use '*' key. example:</p>
+
+<pre>
+<span
+class="php-comment">// Return all input field</span>
+Input::get(<span
+class="php-quote">'*'</span>);
+<span
+class="php-comment">// Return input field by key username</span>
+Input::get(<span
+class="php-quote">'username'</span>);
+<span
+class="php-comment">// Return default value when the key name is null</span>
+Input::get(<span
+class="php-quote">'age'</span>, <span class="php-num">26</span>);
+</pre>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>mixed</code><br>$default Default value if request key is not set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="json" id="_json">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_json">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#96-104" title="Go to source code">json</a>( )</code>
+
+		<div class="description short">
+			
+<p>Return all input value are json format</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return all input value are json format</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="file" id="_file">
+
+		<td class="attributes"><code>
+			 public static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_file">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#106-116" title="Go to source code">file</a>( <span>string <var>$key</var></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get request file information. Same with ($_FILES).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get request file information. Same with ($_FILES).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>mixed</code><br>$default Default value if request key is not set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="server" id="_server">
+
+		<td class="attributes"><code>
+			 public static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_server">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#118-139" title="Go to source code">server</a>( <span>string <var>$key</var></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get request server information. Same with ($_SERVER).</p>
+
+<pre>
+<span
+class="php-comment">// will return &quot;localhost&quot; at local server</span>
+<span
+class="php-keyword1">echo</span> Input::server(<span
+class="php-quote">'HTTP_HOST'</span>);
+<span
+class="php-comment">// OR</span>
+<span
+class="php-keyword1">echo</span> Input::server(<span
+class="php-quote">'http_host'</span>);
+</pre>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get request server information. Same with ($_SERVER).</p>
+
+<pre>
+<span
+class="php-comment">// will return &quot;localhost&quot; at local server</span>
+<span
+class="php-keyword1">echo</span> Input::server(<span
+class="php-quote">'HTTP_HOST'</span>);
+<span
+class="php-comment">// OR</span>
+<span
+class="php-keyword1">echo</span> Input::server(<span
+class="php-quote">'http_host'</span>);
+</pre>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>mixed</code><br>$default Default value if request key is not set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ip" id="_ip">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ip">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#141-149" title="Go to source code">ip</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get client IP</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get client IP</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="scheme" id="_scheme">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_scheme">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#151-159" title="Go to source code">scheme</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the HTTP schema</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the HTTP schema</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="user" id="_user">
+
+		<td class="attributes"><code>
+			 public static
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_user">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#161-169" title="Go to source code">user</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the user form $_SERVER['PHP_AUTH_USER'].</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the user form $_SERVER['PHP_AUTH_USER'].</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="password" id="_password">
+
+		<td class="attributes"><code>
+			 public static
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_password">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#171-179" title="Go to source code">password</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the password form $_SERVER['PHP_AUTH_PW'].</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the password form $_SERVER['PHP_AUTH_PW'].</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isSecure" id="_isSecure">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isSecure">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#181-189" title="Go to source code">isSecure</a>( )</code>
+
+		<div class="description short">
+			
+<p>Checks whether the request is secure or not.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks whether the request is secure or not.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAllInput" id="_getAllInput">
+
+		<td class="attributes"><code>
+			 protected static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAllInput">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#191-214" title="Go to source code">getAllInput</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the all input field from the POST or GET. Doesn't include FILE.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the all input field from the POST or GET. Doesn't include FILE.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getByInputMethod" id="_getByInputMethod">
+
+		<td class="attributes"><code>
+			 protected static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getByInputMethod">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#216-232" title="Go to source code">getByInputMethod</a>( <span>string <var>$key</var></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>This method decide ($request[$_POST] or $query[$_GET]) base on request
+method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This method decide ($request[$_POST] or $query[$_GET]) base on request
+method</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>mixed</code><br>$default Default value if request key is not set</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sanitize" id="_sanitize">
+
+		<td class="attributes"><code>
+			 protected static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sanitize">#</a>
+		<code><a href="source-class-Reborn.Http.Input.html#234-251" title="Go to source code">sanitize</a>( <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Clean the Input Value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clean the Input Value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="instance" id="$instance">
+		<td class="attributes"><code>
+			protected static 
+			<code><a href="class-Reborn.Http.Request.html">Reborn\Http\Request</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Http.Input.html#18-23" title="Go to source code"><var>$instance</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$instance" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Instance for Reborn\Http\Request</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Instance for Reborn\Http\Request</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+			<div id="footer">
+				<div id="rb-logo"></div>
+				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

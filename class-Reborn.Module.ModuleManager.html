@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Reborn\Module\ModuleManager | Reborn CMS 2.0 API</title>
+
+	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
+	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
+
+</head>
+
+<body>
+
+<div id="top-bar">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" placeholder="Search..." class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Reborn.Module.html" title="Summary of Reborn\Module"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<div id="container">
+	<div id="left">
+		<div id="menu">
+			<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+			<div id="groups">
+				<h3>Namespaces</h3>
+				<ul>
+					<li><a href="namespace-None.html">None</a>
+							</li>
+					<li><a href="namespace-PHP.html">PHP</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+							</li>
+					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Config.html">Config</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.html">Connector<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.DB.html">DB</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.Log.html">Log<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Console.html">Console</a>
+							</li>
+					<li><a href="namespace-Reborn.Cores.html">Cores</a>
+							</li>
+					<li><a href="namespace-Reborn.Dummy.html">Dummy</a>
+							</li>
+					<li><a href="namespace-Reborn.Event.html">Event</a>
+							</li>
+					<li><a href="namespace-Reborn.Exception.html">Exception</a>
+							</li>
+					<li><a href="namespace-Reborn.Filesystem.html">Filesystem</a>
+							</li>
+					<li><a href="namespace-Reborn.FileUpload.html">FileUpload</a>
+							</li>
+					<li><a href="namespace-Reborn.Form.html">Form</a>
+							</li>
+					<li><a href="namespace-Reborn.Http.html">Http</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.Module.html">Module</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.Exception.html">Exception</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.Model.html">Model</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.View.html">View<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
+							</li>
+					<li><a href="namespace-Reborn.Route.html">Route</a>
+							</li>
+					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Util.html">Util</a>
+							</li>
+					<li><a href="namespace-Reborn.Widget.html">Widget</a>
+							</li>
+								</ul></li>
+				</ul>
+			</div>
+
+			<hr />
+
+
+			<div id="elements">
+				<h3>Classes</h3>
+				<ul>
+					<li><a href="class-Reborn.Module.AbstractBootstrap.html">AbstractBootstrap</a></li>
+					<li><a href="class-Reborn.Module.AbstractInfo.html">AbstractInfo</a></li>
+					<li><a href="class-Reborn.Module.AbstractInstaller.html">AbstractInstaller</a></li>
+					<li><a href="class-Reborn.Module.Module.html">Module</a></li>
+					<li class="active"><a href="class-Reborn.Module.ModuleManager.html">ModuleManager</a></li>
+				</ul>
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div id="splitter"></div>
+
+	<div id="right">
+		<div id="rightInner">
+
+<div id="content" class="class">
+	<h1>Class ModuleManager</h1>
+
+
+	<div class="description">
+	
+<p>Module Manager Class for Reborn</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Reborn.html">Reborn</a>\<a href="namespace-Reborn.Module.html">Module</a><br />
+		<b>Package:</b> Cores<br />
+
+				<b>Author:</b>
+				Myanmar Links Professional Web Development Team<br />
+		<b>Located at</b> <a href="source-class-Reborn.Module.ModuleManager.html#9-417" title="Go to source code">Reborn/Module/ModuleManager.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="initialize" id="_initialize">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_initialize">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#56-73" title="Go to source code">initialize</a>( )</code>
+
+		<div class="description short">
+			
+<p>Initialize method for module class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Initialize method for module class</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="install" id="_install">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_install">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#75-91" title="Go to source code">install</a>( <span>string <var>$module</var></span>, <span>mixed <var>$uri</var></span>, <span>mixed <var>$setEnable</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$refresh</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Install the given module to DB table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Install the given module to DB table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$module</var></dt>
+					<dd><code>string</code><br>$module slug of module(folder name)</dd>
+					<dt><var>$uri</var></dt>
+					<dd></dd>
+					<dt><var>$setEnable</var></dt>
+					<dd></dd>
+					<dt><var>$refresh</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="uninstall" id="_uninstall">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_uninstall">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#93-118" title="Go to source code">uninstall</a>( <span>string <var>$module</var></span>, <span>mixed <var>$uri</var></span> )</code>
+
+		<div class="description short">
+			
+<p>UnInstall the given module to DB table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>UnInstall the given module to DB table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$module</var></dt>
+					<dd><code>string</code><br>$module slug of module(folder name)</dd>
+					<dt><var>$uri</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="upgrade" id="_upgrade">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_upgrade">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#120-140" title="Go to source code">upgrade</a>( <span>string <var>$module</var></span>, <span>mixed <var>$uri</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Upgrade the given module.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Upgrade the given module.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$module</var></dt>
+					<dd><code>string</code><br>$module Name of Module</dd>
+					<dt><var>$uri</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="boot" id="_boot">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_boot">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#142-152" title="Go to source code">boot</a>( <span>mixed <var>$module</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Boot the Module</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Boot the Module</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="adminMenu" id="_adminMenu">
+
+		<td class="attributes"><code>
+			 public static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_adminMenu">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#154-168" title="Go to source code">adminMenu</a>( <span><code><a href="class-Reborn.Util.Menu.html">Reborn\Util\Menu</a></code> <var>$menu</var></span>, <span>string <var>$module</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the Admin Menu for Module</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the Admin Menu for Module</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$menu</var></dt>
+					<dd><code><code><a href="class-Reborn.Util.Menu.html">Reborn\Util\Menu</a></code></code></dd>
+					<dt><var>$module</var></dt>
+					<dd><code>string</code><br>$module</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="settings" id="_settings">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_settings">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#170-181" title="Go to source code">settings</a>( <span>string <var>$module</var></span> )</code>
+
+		<div class="description short">
+			
+<p>undocumented function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>undocumented function</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$module</var></dt>
+					<dd><code>string</code><br>$module Module name</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="moduleToolbar" id="_moduleToolbar">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_moduleToolbar">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#183-193" title="Go to source code">moduleToolbar</a>( <span>mixed <var>$module</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the toolbar (Use at adminpanel) for given module.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the toolbar (Use at adminpanel) for given module.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkModule" id="_checkModule">
+
+		<td class="attributes"><code>
+			 protected static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkModule">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#195-213" title="Go to source code">checkModule</a>( <span>string <var>$module</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check the given module is truely or not. First - check the module is really
+exits Second - check the module's module.php file Third - check the module.php
+format is correct?</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check the given module is truely or not. First - check the module is really
+exits Second - check the module's module.php file Third - check the module.php
+format is correct?</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$module</var></dt>
+					<dd><code>string</code><br>$module</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="moduleSetup" id="_moduleSetup">
+
+		<td class="attributes"><code>
+			 protected static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_moduleSetup">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#215-261" title="Go to source code">moduleSetup</a>( <span>array <var>$modulesFromFolder</var></span>, <span>array <var>$modulesFromDB</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Setup the given modules. Module list from Forlder and DB. Reborn make module
+is enable or disable at this stage</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Setup the given modules. Module list from Forlder and DB. Reborn make module
+is enable or disable at this stage</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$modulesFromFolder</var></dt>
+					<dd><code>array</code><br>$modulesFromFolder Module list array from module folder</dd>
+					<dt><var>$modulesFromDB</var></dt>
+					<dd><code>array</code><br>$modulesFromDB Modulelist array from module DB table</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="find" id="_find">
+
+		<td class="attributes"><code>
+			 protected static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_find">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#263-284" title="Go to source code">find</a>( <span>string <var>$module</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Find the module by given name</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Find the module by given name</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$module</var></dt>
+					<dd><code>string</code><br>$module Name of module</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="findFromDB" id="_findFromDB">
+
+		<td class="attributes"><code>
+			 protected static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_findFromDB">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#286-306" title="Go to source code">findFromDB</a>( )</code>
+
+		<div class="description short">
+			
+<p>Find All modules from DB table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Find All modules from DB table</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="findAll" id="_findAll">
+
+		<td class="attributes"><code>
+			 protected static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_findAll">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#308-346" title="Go to source code">findAll</a>( )</code>
+
+		<div class="description short">
+			
+<p>Find All modules from Module Folders Core Modules and Addon Modules</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Find All modules from Module Folders Core Modules and Addon Modules</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fileCheck" id="_fileCheck">
+
+		<td class="attributes"><code>
+			 protected static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fileCheck">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#348-378" title="Go to source code">fileCheck</a>( <span>string <var>$path</var></span>, <span>string <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check the require files for module is exists or not.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check the require files for module is exists or not.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$path Module path</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name Module name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getModuleInfo" id="_getModuleInfo">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getModuleInfo">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#380-403" title="Go to source code">getModuleInfo</a>( <span>mixed <var>$path</var></span>, <span>mixed <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Module Info</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Module Info</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__callStatic" id="___callStatic">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___callStatic">#</a>
+		<code><a href="source-class-Reborn.Module.ModuleManager.html#405-415" title="Go to source code">__callStatic</a>( <span>mixed <var>$method</var></span>, <span>mixed <var>$args</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Magic method __callStatic</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Magic method __callStatic</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="mod" id="$mod">
+		<td class="attributes"><code>
+			protected static 
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Module.ModuleManager.html#18" title="Go to source code"><var>$mod</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$mod" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_table" id="$_table">
+		<td class="attributes"><code>
+			protected static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Module.ModuleManager.html#20-25" title="Go to source code"><var>$_table</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'modules'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_table" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Module table name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Module table name</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="infoFile" id="$infoFile">
+		<td class="attributes"><code>
+			protected static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Module.ModuleManager.html#27-32" title="Go to source code"><var>$infoFile</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'Info.php'</span></code></td>
+		<td class="description"><div>
+			<a href="#$infoFile" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Module Information file name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Module Information file name</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="installer" id="$installer">
+		<td class="attributes"><code>
+			protected static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Module.ModuleManager.html#34-39" title="Go to source code"><var>$installer</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'Installer.php'</span></code></td>
+		<td class="description"><div>
+			<a href="#$installer" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Module Installer file name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Module Installer file name</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="bootstrap" id="$bootstrap">
+		<td class="attributes"><code>
+			protected static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Module.ModuleManager.html#41-46" title="Go to source code"><var>$bootstrap</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'Bootstrap.php'</span></code></td>
+		<td class="description"><div>
+			<a href="#$bootstrap" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Module Bootstrap file name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Module Bootstrap file name</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="noInfoFile" id="$noInfoFile">
+		<td class="attributes"><code>
+			protected static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Module.ModuleManager.html#48-53" title="Go to source code"><var>$noInfoFile</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'%s not found in given module { %s }.'</span></code></td>
+		<td class="description"><div>
+			<a href="#$noInfoFile" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Variables for module exception message</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Variables for module exception message</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="modFileRule" id="$modFileRule">
+		<td class="attributes"><code>
+			protected static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Module.ModuleManager.html#54" title="Go to source code"><var>$modFileRule</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'%s of { %s } is not match with Reborn Module rule'</span></code></td>
+		<td class="description"><div>
+			<a href="#$modFileRule" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+			<div id="footer">
+				<div id="rb-logo"></div>
+				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
