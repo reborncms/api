@@ -4,10 +4,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="generator" content="ApiGen 2.8.0" />
 
-	<title>Class Reborn\Module\AbstractBootstrap | Reborn CMS 2.0 API</title>
+	<title>Class Reborn\Module\AbstractBootstrap | Reborn CMS Version 2.0</title>
 
 	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
-	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<script type="text/javascript" src="elementlist.js?1631347535"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
 
 </head>
@@ -58,8 +58,20 @@
 							</li>
 					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
 							<ul>
-					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+					<li><a href="namespace-Reborn.Asset.html">Asset<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.html">Extensions<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.Type.html">Type</a>
 							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Auth.html">Auth<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.html">Sentry<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.Eloquent.html">Eloquent</a>
+							</li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
@@ -75,10 +87,7 @@
 							<ul>
 					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
 							</li>
-								</ul></li>
-					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
-							</li>
-								</ul></li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Console.html">Console</a>
 							</li>
 					<li><a href="namespace-Reborn.Cores.html">Cores</a>
@@ -97,8 +106,13 @@
 							</li>
 					<li><a href="namespace-Reborn.Http.html">Http</a>
 							</li>
-					<li class="active"><a href="namespace-Reborn.Module.html">Module</a>
+					<li><a href="namespace-Reborn.Mail.html">Mail</a>
 							</li>
+					<li class="active"><a href="namespace-Reborn.Module.html">Module<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Module.Handler.html">Handler</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
@@ -113,15 +127,37 @@
 					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
 							</li>
 								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Pagination.html">Pagination</a>
+							</li>
+					<li><a href="namespace-Reborn.Parser.html">Parser</a>
+							</li>
 					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
 							</li>
-					<li><a href="namespace-Reborn.Route.html">Route</a>
+					<li><a href="namespace-Reborn.Routing.html">Routing</a>
 							</li>
+					<li><a href="namespace-Reborn.Table.html">Table<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Table.DataTable.html">DataTable</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
 							</li>
 								</ul></li>
+					<li><a href="namespace-Reborn.UI.html">UI<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.JqueryUi.html">JqueryUi</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.html">Solid<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Facade.html">Facade</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.Form.html">Form<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Form.Field.html">Field</a>
+							</li>
+								</ul></li></ul></li></ul></li>
 					<li><a href="namespace-Reborn.Util.html">Util</a>
 							</li>
 					<li><a href="namespace-Reborn.Widget.html">Widget</a>
@@ -139,7 +175,7 @@
 					<li class="active"><a href="class-Reborn.Module.AbstractBootstrap.html">AbstractBootstrap</a></li>
 					<li><a href="class-Reborn.Module.AbstractInfo.html">AbstractInfo</a></li>
 					<li><a href="class-Reborn.Module.AbstractInstaller.html">AbstractInstaller</a></li>
-					<li><a href="class-Reborn.Module.Module.html">Module</a></li>
+					<li><a href="class-Reborn.Module.Builder.html">Builder</a></li>
 					<li><a href="class-Reborn.Module.ModuleManager.html">ModuleManager</a></li>
 				</ul>
 
@@ -160,6 +196,11 @@
 	<h1>Class AbstractBootstrap</h1>
 
 
+	<div class="description">
+	
+<p>Module Bootstrap Abstract Class for Reborn Module</p>
+
+	</div>
 
 
 
@@ -173,9 +214,11 @@
 		<b>Abstract</b><br />
 		
 		<b>Namespace:</b> <a href="namespace-Reborn.html">Reborn</a>\<a href="namespace-Reborn.Module.html">Module</a><br />
-		
+		<b>Package:</b> Reborn\Module<br />
 
-		<b>Located at</b> <a href="source-class-Reborn.Module.AbstractBootstrap.html#5-47" title="Go to source code">Reborn/Module/AbstractBootstrap.php</a><br />
+				<b>Author:</b>
+				Myanmar Links Professional Web Development Team<br />
+		<b>Located at</b> <a href="source-class-Reborn.Module.AbstractBootstrap.html#5-53" title="Go to source code">Reborn/Module/AbstractBootstrap.php</a><br />
 	</div>
 
 
@@ -193,7 +236,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#___construct">#</a>
-		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#15-20" title="Go to source code">__construct</a>( <span><code><a href="class-Reborn.Cores.Application.html">Reborn\Cores\Application</a></code> <var>$app</var></span> )</code>
+		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#21-26" title="Go to source code">__construct</a>( <span><code><a href="class-Reborn.Cores.Application.html">Reborn\Cores\Application</a></code> <var>$app</var></span> )</code>
 
 		<div class="description short">
 			
@@ -222,17 +265,17 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_boot">#</a>
-		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#22-25" title="Go to source code">boot</a>( )</code>
+		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#28-31" title="Go to source code">boot</a>( )</code>
 
 		<div class="description short">
 			
-<p>Abstract function when call the module is load.</p>
+<p>Abstract function when call the module is boot.</p>
 
 		</div>
 
 		<div class="description detailed hidden">
 			
-<p>Abstract function when call the module is load.</p>
+<p>Abstract function when call the module is boot.</p>
 
 
 
@@ -255,17 +298,17 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_adminMenu">#</a>
-		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#27-30" title="Go to source code">adminMenu</a>( <span><code><a href="class-Reborn.Util.Menu.html">Reborn\Util\Menu</a></code> <var>$menu</var></span>, <span>mixed <var>$modUri</var></span> )</code>
+		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#33-36" title="Go to source code">adminMenu</a>( <span><code><a href="class-Reborn.Util.Menu.html">Reborn\Util\Menu</a></code> <var>$menu</var></span>, <span>mixed <var>$modUri</var></span> )</code>
 
 		<div class="description short">
 			
-<p>Abstract function when call the Admin Panel load.</p>
+<p>Abstract function for Menu when call the Admin Panel load.</p>
 
 		</div>
 
 		<div class="description detailed hidden">
 			
-<p>Abstract function when call the Admin Panel load.</p>
+<p>Abstract function for Menu when call the Admin Panel load.</p>
 
 
 
@@ -288,7 +331,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_settings">#</a>
-		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#32-35" title="Go to source code">settings</a>( )</code>
+		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#38-41" title="Go to source code">settings</a>( )</code>
 
 		<div class="description short">
 			
@@ -321,7 +364,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_moduleToolbar">#</a>
-		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#37-40" title="Go to source code">moduleToolbar</a>( )</code>
+		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#43-46" title="Go to source code">moduleToolbar</a>( )</code>
 
 		<div class="description short">
 			
@@ -354,17 +397,17 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_register">#</a>
-		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#42-45" title="Go to source code">register</a>( )</code>
+		<code><a href="source-class-Reborn.Module.AbstractBootstrap.html#48-51" title="Go to source code">register</a>( )</code>
 
 		<div class="description short">
 			
-<p>Abstract function for the module register</p>
+<p>Abstract function for the module register.</p>
 
 		</div>
 
 		<div class="description detailed hidden">
 			
-<p>Abstract function for the module register</p>
+<p>Abstract function for the module register.</p>
 
 
 
@@ -398,7 +441,7 @@
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-Reborn.Module.AbstractBootstrap.html#8-13" title="Go to source code"><var>$app</var></a>
+				<a href="source-class-Reborn.Module.AbstractBootstrap.html#14-19" title="Go to source code"><var>$app</var></a>
 		</td>
 		<td class="value"><code></code></td>
 		<td class="description"><div>
@@ -406,13 +449,13 @@
 
 			<div class="description short">
 				
-<p>Variable for Application (DIC) instance</p>
+<p>Variable for Application (IOC) instance</p>
 
 			</div>
 
 			<div class="description detailed hidden">
 				
-<p>Variable for Application (DIC) instance</p>
+<p>Variable for Application (IOC) instance</p>
 
 
 			</div>
@@ -429,7 +472,7 @@
 
 			<div id="footer">
 				<div id="rb-logo"></div>
-				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+				Reborn CMS Version 2.0 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
 			</div>
 		</div>
 	</div>

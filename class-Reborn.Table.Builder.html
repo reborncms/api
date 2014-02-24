@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Reborn\Table\Builder | Reborn CMS Version 2.0</title>
+
+	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
+	<script type="text/javascript" src="elementlist.js?1631347535"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
+
+</head>
+
+<body>
+
+<div id="top-bar">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" placeholder="Search..." class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Reborn.Table.html" title="Summary of Reborn\Table"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<div id="container">
+	<div id="left">
+		<div id="menu">
+			<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+			<div id="groups">
+				<h3>Namespaces</h3>
+				<ul>
+					<li><a href="namespace-None.html">None</a>
+							</li>
+					<li><a href="namespace-PHP.html">PHP</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.html">Asset<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.html">Extensions<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.Type.html">Type</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Auth.html">Auth<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.html">Sentry<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.Eloquent.html">Eloquent</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Config.html">Config</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.html">Connector<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.DB.html">DB</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.Log.html">Log<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Console.html">Console</a>
+							</li>
+					<li><a href="namespace-Reborn.Cores.html">Cores</a>
+							</li>
+					<li><a href="namespace-Reborn.Dummy.html">Dummy</a>
+							</li>
+					<li><a href="namespace-Reborn.Event.html">Event</a>
+							</li>
+					<li><a href="namespace-Reborn.Exception.html">Exception</a>
+							</li>
+					<li><a href="namespace-Reborn.Filesystem.html">Filesystem</a>
+							</li>
+					<li><a href="namespace-Reborn.FileUpload.html">FileUpload</a>
+							</li>
+					<li><a href="namespace-Reborn.Form.html">Form</a>
+							</li>
+					<li><a href="namespace-Reborn.Http.html">Http</a>
+							</li>
+					<li><a href="namespace-Reborn.Mail.html">Mail</a>
+							</li>
+					<li><a href="namespace-Reborn.Module.html">Module<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Module.Handler.html">Handler</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.Exception.html">Exception</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.Model.html">Model</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.View.html">View<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Pagination.html">Pagination</a>
+							</li>
+					<li><a href="namespace-Reborn.Parser.html">Parser</a>
+							</li>
+					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
+							</li>
+					<li><a href="namespace-Reborn.Routing.html">Routing</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.Table.html">Table<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Table.DataTable.html">DataTable</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.UI.html">UI<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.JqueryUi.html">JqueryUi</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.html">Solid<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Facade.html">Facade</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.Form.html">Form<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Form.Field.html">Field</a>
+							</li>
+								</ul></li></ul></li></ul></li>
+					<li><a href="namespace-Reborn.Util.html">Util</a>
+							</li>
+					<li><a href="namespace-Reborn.Widget.html">Widget</a>
+							</li>
+								</ul></li>
+				</ul>
+			</div>
+
+			<hr />
+
+
+			<div id="elements">
+				<h3>Classes</h3>
+				<ul>
+					<li class="active"><a href="class-Reborn.Table.Builder.html">Builder</a></li>
+					<li><a href="class-Reborn.Table.DataTable.html">DataTable</a></li>
+				</ul>
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div id="splitter"></div>
+
+	<div id="right">
+		<div id="rightInner">
+
+<div id="content" class="class">
+	<h1>Class Builder</h1>
+
+
+	<div class="description">
+	
+<p>Table Generate Helper class</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Reborn.html">Reborn</a>\<a href="namespace-Reborn.Table.html">Table</a><br />
+		<b>Package:</b> Reborn\Table<br />
+
+				<b>Author:</b>
+				Myanmar Links Web Development Team<br />
+		<b>Located at</b> <a href="source-class-Reborn.Table.Builder.html#10-713" title="Go to source code">Reborn/Table/Builder.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="create" id="_create">
+
+		<td class="attributes"><code>
+			 public static
+			Reborn\Util\Table
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_create">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#90-99" title="Go to source code">create</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Static method for Table Instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Static method for Table Instance</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Reborn\Util\Table</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#101-144" title="Go to source code">__construct</a>( <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Default Constructor Method for Table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Default Constructor Method for Table</p>
+
+<p>Avaliable options list. - check_all [Boolean] Use Check All check box in
+table - actions [Array] Same with setActions param. - class [String] Class name
+for table tag - id [String] Id name for table tag - object [Object] Data Object
+- btn_type [String] Action Button Type Name</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="provider" id="_provider">
+
+		<td class="attributes"><code>
+			 public 
+			Reborn\Util\Table
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_provider">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#146-159" title="Go to source code">provider</a>( <span>mixed <var>$provider</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Data Provider for table.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Data Provider for table.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$provider</var></dt>
+					<dd><code>mixed</code><br>$provider Data provider (May be Model or array)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Reborn\Util\Table</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="tableClass" id="_tableClass">
+
+		<td class="attributes"><code>
+			 public 
+			Reborn\Util\Table
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_tableClass">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#161-172" title="Go to source code">tableClass</a>( <span>string <var>$classes</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Table tag's class value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Table tag's class value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$classes</var></dt>
+					<dd><code>string</code><br>$classes Tabel class [css] string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Reborn\Util\Table</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="tableId" id="_tableId">
+
+		<td class="attributes"><code>
+			 public 
+			Reborn\Util\Table
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_tableId">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#174-185" title="Go to source code">tableId</a>( <span>string <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Table tag's id value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Table tag's id value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>string</code><br>$id Tabel id string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Reborn\Util\Table</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="actionType" id="_actionType">
+
+		<td class="attributes"><code>
+			 public 
+			Reborn\Util\Table
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_actionType">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#187-200" title="Go to source code">actionType</a>( <span>string <var>$type</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Action Button Type</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Action Button Type</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type Action Button Type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Reborn\Util\Table</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="actions" id="_actions">
+
+		<td class="attributes"><code>
+			 public 
+			Reborn\Util\Table
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_actions">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#202-230" title="Go to source code">actions</a>( <span>mixed <var>$actions</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Set the table's action buttons for each row.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the table's action buttons for each row.</p>
+
+<pre>
+<span class="php-var">$actions</span> = <span
+class="php-keyword1">array</span>(
+                                        <span
+class="php-quote">'edit'</span> =&gt; <span
+class="php-keyword1">array</span>(
+                                                                <span
+class="php-quote">'title'</span> =&gt; <span
+class="php-quote">'Edit'</span>,
+                                                                <span
+class="php-quote">'btn-class'</span> =&gt; <span
+class="php-quote">'blue'</span>,
+                                                                <span
+class="php-quote">'url'</span> =&gt; rbUrl(<span
+class="php-quote">'blog/edit'</span>), <span
+class="php-comment">// adminUrl('blog/edit')</span>
+                                                                <span
+class="php-quote">'icon'</span> =&gt; <span
+class="php-quote">'icon-edit'</span>),
+                                        <span
+class="php-quote">'delete'</span> =&gt; <span
+class="php-keyword1">array</span>(
+                                                                <span
+class="php-quote">'title'</span> =&gt; <span
+class="php-quote">'Delete'</span>,
+                                                                <span
+class="php-quote">'btn-class'</span> =&gt; <span
+class="php-quote">'red'</span>,
+                                                                <span
+class="php-quote">'url'</span> =&gt; rbUrl(<span
+class="php-quote">'blog/delete'</span>), <span
+class="php-comment">// adminUrl('blog/delete')</span>
+                                                                <span
+class="php-quote">'icon'</span> =&gt; <span
+class="php-quote">'icon-delete'</span>)
+                                );
+<span
+class="php-var">$tabel</span>-&gt;setActions(<span
+class="php-var">$actions</span>);
+</pre>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Reborn\Util\Table</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="action" id="_action">
+
+		<td class="attributes"><code>
+			 public 
+			Reborn\Util\Table
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_action">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#232-261" title="Go to source code">action</a>( <span>string <var>$name</var></span>, <span>string <var>$title</var></span>, <span>string|null <var>$url</var> = <span class="php-keyword1">null</span></span>, <span>string|null <var>$icon</var> = <span class="php-keyword1">null</span></span>, <span>string|null <var>$class</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the table's single action button (or) text.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the table's single action button (or) text.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$title</var></dt>
+					<dd><code>string</code><br>$title</dd>
+					<dt><var>$url</var></dt>
+					<dd><code>string|null</code><br>$url</dd>
+					<dt><var>$icon</var></dt>
+					<dd><code>string|null</code><br>$icon</dd>
+					<dt><var>$class</var></dt>
+					<dd><code>string|null</code><br>$class</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Reborn\Util\Table</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prepareActionsLink" id="_prepareActionsLink">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prepareActionsLink">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#263-293" title="Go to source code">prepareActionsLink</a>( <span>string <var>$name</var></span>, <span>array <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Prepare the Actions Link (button) data array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prepare the Actions Link (button) data array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="headers" id="_headers">
+
+		<td class="attributes"><code>
+			 public 
+			Reborn\Util\Table
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_headers">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#295-323" title="Go to source code">headers</a>( <span>array <var>$headers</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set table header field (&lt;th&gt; value)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set table header field (&lt;th&gt; value)</p>
+
+<pre>
+<span class="php-comment">// Simple Setter</span>
+       <span
+class="php-var">$ths</span> = <span class="php-keyword1">array</span>(<span
+class="php-quote">'Title'</span>, <span
+class="php-quote">'Category'</span>, <span
+class="php-quote">'Created At'</span>);
+<span
+class="php-var">$table</span>-&gt;headers(<span
+class="php-var">$ths</span>);
+
+<span
+class="php-comment">// But I want to set th width for some columns. How to?</span>
+<span
+class="php-comment">// Ok. Use multideminsional array</span>
+<span
+class="php-var">$ths</span> = <span class="php-keyword1">array</span>(<span
+class="php-quote">'Name'</span>, <span class="php-keyword1">array</span>(<span
+class="php-quote">'name'</span> =&gt; <span
+class="php-quote">'Email'</span>, <span
+class="php-quote">'width'</span> =&gt; <span
+class="php-quote">'25%'</span>), <span class="php-keyword1">array</span>(<span
+class="php-quote">'name'</span> =&gt; <span
+class="php-quote">'Created'</span>));
+<span
+class="php-var">$table</span>-&gt;headers(<span
+class="php-var">$ths</span>);
+<span
+class="php-comment">// Output is...</span>
+<span
+class="php-comment">// &lt;tr&gt;</span>
+<span
+class="php-comment">//   &lt;th&gt;Name&lt;/th&gt;</span>
+<span
+class="php-comment">//   &lt;th width=&quot;25%&quot;&gt;Email&lt;/th&gt;</span>
+<span
+class="php-comment">//   &lt;th width=&quot;auto&quot;&gt;Created&lt;/th&gt;</span>
+<span
+class="php-comment">// &lt;/tr&gt;</span>
+</pre>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Reborn\Util\Table</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="columns" id="_columns">
+
+		<td class="attributes"><code>
+			 public 
+			Reborn\Util\Table
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_columns">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#325-347" title="Go to source code">columns</a>( <span>array <var>$cols</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Add table columns data array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add table columns data array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cols</var></dt>
+					<dd><code>array</code><br>$cols</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Reborn\Util\Table</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isEmpty" id="_isEmpty">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isEmpty">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#349-361" title="Go to source code">isEmpty</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check table data is empty or not.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check table data is empty or not.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="build" id="_build">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_build">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#363-389" title="Go to source code">build</a>( )</code>
+
+		<div class="description short">
+			
+<p>Build the Table Output.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Build the Table Output.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderTableOpen" id="_renderTableOpen">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderTableOpen">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#391-402" title="Go to source code">renderTableOpen</a>( )</code>
+
+		<div class="description short">
+			
+<p>Render Table Tag's Open tag (&lt;table&gt;).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Render Table Tag's Open tag (&lt;table&gt;).</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderTableClose" id="_renderTableClose">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderTableClose">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#404-412" title="Go to source code">renderTableClose</a>( )</code>
+
+		<div class="description short">
+			
+<p>Render Table Tag's Close tag (&lt;/table&gt;).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Render Table Tag's Close tag (&lt;/table&gt;).</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderTableHeader" id="_renderTableHeader">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderTableHeader">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#414-435" title="Go to source code">renderTableHeader</a>( )</code>
+
+		<div class="description short">
+			
+<p>Render the table header (&lt;thead&gt;....&lt;/thead&gt;)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Render the table header (&lt;thead&gt;....&lt;/thead&gt;)</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderTableFooter" id="_renderTableFooter">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderTableFooter">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#437-458" title="Go to source code">renderTableFooter</a>( )</code>
+
+		<div class="description short">
+			
+<p>Render the table footer (&lt;thead&gt;....&lt;/thead&gt;)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Render the table footer (&lt;thead&gt;....&lt;/thead&gt;)</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderTableTh" id="_renderTableTh">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderTableTh">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#460-496" title="Go to source code">renderTableTh</a>( )</code>
+
+		<div class="description short">
+			
+<p>Render the table th.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Render the table th.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderTableBody" id="_renderTableBody">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderTableBody">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#498-514" title="Go to source code">renderTableBody</a>( )</code>
+
+		<div class="description short">
+			
+<p>Render the table body (&lt;tbody&gt;...&lt;/tbody&gt;)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Render the table body (&lt;tbody&gt;...&lt;/tbody&gt;)</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderTableRow" id="_renderTableRow">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderTableRow">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#516-546" title="Go to source code">renderTableRow</a>( <span>mixed <var>$data</var></span>, <span>integer <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Render the table row (&lt;tr&gt;....&lt;/tr&gt;)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Render the table row (&lt;tr&gt;....&lt;/tr&gt;)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data</dd>
+					<dt><var>$key</var></dt>
+					<dd><code>integer</code><br>$key Array key from Object Collection. Use for HTML Tag class attribute name
+only.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderTableColumn" id="_renderTableColumn">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderTableColumn">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#548-571" title="Go to source code">renderTableColumn</a>( <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Render the data Column for table (&lt;td&gt;...&lt;/td&gt;)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Render the data Column for table (&lt;td&gt;...&lt;/td&gt;)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getObjectAttribute" id="_getObjectAttribute">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getObjectAttribute">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#573-595" title="Go to source code">getObjectAttribute</a>( <span>mixed <var>$data</var></span>, <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the Object's attribute value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the Object's attribute value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data</dd>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key Object's key name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getObjectAttributeDateTime" id="_getObjectAttributeDateTime">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getObjectAttributeDateTime">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#597-616" title="Go to source code">getObjectAttributeDateTime</a>( <span>Object <var>$data</var></span>, <span>string <var>$key</var></span>, <span>string <var>$format</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the Object's datetime attribute value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the Object's datetime attribute value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>Object</code><br>$obj ModelObject</dd>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>$key Object's key name</dd>
+					<dt><var>$format</var></dt>
+					<dd><code>string</code><br>$format Datetime format string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderActionsColumn" id="_renderActionsColumn">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderActionsColumn">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#618-661" title="Go to source code">renderActionsColumn</a>( <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Render the Action Buttons Column for table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Render the Action Buttons Column for table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getButton" id="_getButton">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getButton">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#663-685" title="Go to source code">getButton</a>( <span>array <var>$attrs</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the Anchor HTML Code for action button</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the Anchor HTML Code for action button</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attrs</var></dt>
+					<dd><code>array</code><br>$attrs Button Attribute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getButtonData" id="_getButtonData">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getButtonData">#</a>
+		<code><a href="source-class-Reborn.Table.Builder.html#687-711" title="Go to source code">getButtonData</a>( <span>array <var>$attrs</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Action Button Inner Data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Action Button Inner Data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attrs</var></dt>
+					<dd><code>array</code><br>$attrs Button attributes array</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="headers" id="$headers">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Table.Builder.html#18-23" title="Go to source code"><var>$headers</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$headers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>tabel header (th) variable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>tabel header (th) variable</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="use_tfoot" id="$use_tfoot">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Table.Builder.html#25-30" title="Go to source code"><var>$use_tfoot</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$use_tfoot" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Use table footer</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Use table footer</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cols" id="$cols">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Table.Builder.html#32-37" title="Go to source code"><var>$cols</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$cols" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>table columns (td) variable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>table columns (td) variable</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="check_all" id="$check_all">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Table.Builder.html#39-44" title="Go to source code"><var>$check_all</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$check_all" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Add check all select box variable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Add check all select box variable</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="actions" id="$actions">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Table.Builder.html#46-51" title="Go to source code"><var>$actions</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$actions" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Add row actions buttons data variable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Add row actions buttons data variable</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="table_class" id="$table_class">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Table.Builder.html#53-58" title="Go to source code"><var>$table_class</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$table_class" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>CSS class name for table variable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>CSS class name for table variable</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="table_id" id="$table_id">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Table.Builder.html#60-65" title="Go to source code"><var>$table_id</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$table_id" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>CSS id name for table variable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>CSS id name for table variable</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="provider" id="$provider">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Table.Builder.html#67-72" title="Go to source code"><var>$provider</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$provider" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>table data provider</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>table data provider</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="button_type" id="$button_type">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Table.Builder.html#74-87" title="Go to source code"><var>$button_type</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'text'</span></code></td>
+		<td class="description"><div>
+			<a href="#$button_type" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Action buttons type name Support Type name are<br />
+- icon [Icon only] eg: <a href="#"><i class="icon-class"></i></a><br />
+- icons-bar [Icons group with div.icons-bar wrapping]<br />
+- icon-text [Icon and Text] eg: <a href="#"><i
+class="icon-class"></i>TextLabel</a><br />
+- text-icon [Text and Icon] eg: <a href="#">TextLabel<i
+class="icon-class"></i></a><br />
+- text [Text Only] eg: <a href="#">TextLabel</a></p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Action buttons type name Support Type name are - icon [Icon only] eg: <a
+href="#"><i class="icon-class"></i></a> - icons-bar [Icons group with
+div.icons-bar wrapping] - icon-text [Icon and Text] eg: <a href="#"><i
+class="icon-class"></i>TextLabel</a> - text-icon [Text and Icon] eg: <a
+href="#">TextLabel<i class="icon-class"></i></a> - text [Text Only] eg: <a
+href="#">TextLabel</a></p>
+
+<p>Default value is text</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+			<div id="footer">
+				<div id="rb-logo"></div>
+				Reborn CMS Version 2.0 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Reborn\Mail\Mailer | Reborn CMS Version 2.0</title>
+
+	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
+	<script type="text/javascript" src="elementlist.js?1631347535"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
+
+</head>
+
+<body>
+
+<div id="top-bar">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" placeholder="Search..." class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Reborn.Mail.html" title="Summary of Reborn\Mail"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<div id="container">
+	<div id="left">
+		<div id="menu">
+			<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+			<div id="groups">
+				<h3>Namespaces</h3>
+				<ul>
+					<li><a href="namespace-None.html">None</a>
+							</li>
+					<li><a href="namespace-PHP.html">PHP</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.html">Asset<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.html">Extensions<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.Type.html">Type</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Auth.html">Auth<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.html">Sentry<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.Eloquent.html">Eloquent</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Config.html">Config</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.html">Connector<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.DB.html">DB</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.Log.html">Log<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Console.html">Console</a>
+							</li>
+					<li><a href="namespace-Reborn.Cores.html">Cores</a>
+							</li>
+					<li><a href="namespace-Reborn.Dummy.html">Dummy</a>
+							</li>
+					<li><a href="namespace-Reborn.Event.html">Event</a>
+							</li>
+					<li><a href="namespace-Reborn.Exception.html">Exception</a>
+							</li>
+					<li><a href="namespace-Reborn.Filesystem.html">Filesystem</a>
+							</li>
+					<li><a href="namespace-Reborn.FileUpload.html">FileUpload</a>
+							</li>
+					<li><a href="namespace-Reborn.Form.html">Form</a>
+							</li>
+					<li><a href="namespace-Reborn.Http.html">Http</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.Mail.html">Mail</a>
+							</li>
+					<li><a href="namespace-Reborn.Module.html">Module<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Module.Handler.html">Handler</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.Exception.html">Exception</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.Model.html">Model</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.View.html">View<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Pagination.html">Pagination</a>
+							</li>
+					<li><a href="namespace-Reborn.Parser.html">Parser</a>
+							</li>
+					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
+							</li>
+					<li><a href="namespace-Reborn.Routing.html">Routing</a>
+							</li>
+					<li><a href="namespace-Reborn.Table.html">Table<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Table.DataTable.html">DataTable</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.UI.html">UI<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.JqueryUi.html">JqueryUi</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.html">Solid<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Facade.html">Facade</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.Form.html">Form<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Form.Field.html">Field</a>
+							</li>
+								</ul></li></ul></li></ul></li>
+					<li><a href="namespace-Reborn.Util.html">Util</a>
+							</li>
+					<li><a href="namespace-Reborn.Widget.html">Widget</a>
+							</li>
+								</ul></li>
+				</ul>
+			</div>
+
+			<hr />
+
+
+			<div id="elements">
+				<h3>Classes</h3>
+				<ul>
+					<li class="active"><a href="class-Reborn.Mail.Mailer.html">Mailer</a></li>
+					<li><a href="class-Reborn.Mail.Manager.html">Manager</a></li>
+				</ul>
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div id="splitter"></div>
+
+	<div id="right">
+		<div id="rightInner">
+
+<div id="content" class="class">
+	<h1>Class Mailer</h1>
+
+
+	<div class="description">
+	
+<p>Mailer class for Reborn CMS.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Reborn.html">Reborn</a>\<a href="namespace-Reborn.Mail.html">Mail</a><br />
+		<b>Package:</b> default<br />
+
+				<b>Author:</b>
+				MyanmarLinks Professional Web Development Team<br />
+		<b>Located at</b> <a href="source-class-Reborn.Mail.Mailer.html#10-516" title="Go to source code">Reborn/Mail/Mailer.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="create" id="_create">
+
+		<td class="attributes"><code>
+			 public static
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_create">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#67-76" title="Go to source code">create</a>( <span>array <var>$config</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create new Mailer instance with static method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create new Mailer instance with static method.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$config</var></dt>
+					<dd><code>array</code><br>$config</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#78-97" title="Go to source code">__construct</a>( <span>array <var>$config</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Default create instance method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Default create instance method.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$config</var></dt>
+					<dd><code>array</code><br>$config</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTemplatePath" id="_setTemplatePath">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTemplatePath">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#99-109" title="Go to source code">setTemplatePath</a>( <span>mixed <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Layout template path. Template path must be end with DS. eg:
+BASE/heart/appdata/views/email/</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Layout template path. Template path must be end with DS. eg:
+BASE/heart/appdata/views/email/</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="data" id="_data">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_data">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#111-129" title="Go to source code">data</a>( <span>array <var>$data</var></span>, <span>boolean <var>$merge</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set data array for message placeholder.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set data array for message placeholder.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code><br>$data</dd>
+					<dt><var>$merge</var></dt>
+					<dd><code>boolean</code><br>$merge</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getManager" id="_getManager">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Manager.html">Reborn\Mail\Manager</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getManager">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#131-139" title="Go to source code">getManager</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get Manager instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Manager instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Manager.html">Reborn\Mail\Manager</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMessage" id="_getMessage">
+
+		<td class="attributes"><code>
+			 public 
+			Swift_Message
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMessage">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#141-149" title="Go to source code">getMessage</a>( <span>Swift_Message <var>$message</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Swift_Message instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Swift_Message instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Swift_Message</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setMessage" id="_setMessage">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setMessage">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#151-162" title="Go to source code">setMessage</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set Swift_Message instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Swift_Message instance</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSwiftMailer" id="_getSwiftMailer">
+
+		<td class="attributes"><code>
+			 public 
+			Swift_Mailer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSwiftMailer">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#164-172" title="Go to source code">getSwiftMailer</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get Swift_Mailer instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Swift_Mailer instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Swift_Mailer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSwiftMailer" id="_setSwiftMailer">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSwiftMailer">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#174-185" title="Go to source code">setSwiftMailer</a>( <span>Swift_Mailer <var>$mailer</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Swift_Mailer instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Swift_Mailer instance</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$mailer</var></dt>
+					<dd><code>Swift_Mailer</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getError" id="_getError">
+
+		<td class="attributes"><code>
+			 public 
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getError">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#187-195" title="Go to source code">getError</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get mail sending error</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get mail sending error</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFailer" id="_getFailer">
+
+		<td class="attributes"><code>
+			 public 
+			array|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFailer">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#197-205" title="Go to source code">getFailer</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get mail sending failer addresses</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get mail sending failer addresses</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array|null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="subject" id="_subject">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_subject">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#207-218" title="Go to source code">subject</a>( <span>string <var>$subject</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the subject for this message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the subject for this message</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$subject</var></dt>
+					<dd><code>string</code><br>$subject</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="body" id="_body">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_body">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#220-233" title="Go to source code">body</a>( <span>string <var>$message</var></span>, <span>string <var>$template</var> = <span class="php-quote">'default.html'</span></span>, <span>string <var>$content_type</var> = <span class="php-quote">'text/html'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the body for this message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the body for this message</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$template</var></dt>
+					<dd><code>string</code><br>$template Layout template with HTML tag.</dd>
+					<dt><var>$content_type</var></dt>
+					<dd><code>string</code><br>$content_type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="part" id="_part">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_part">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#235-247" title="Go to source code">part</a>( <span>string <var>$message</var></span>, <span>string <var>$content_type</var> = <span class="php-quote">'text/plain'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the body for this message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the body for this message</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$content_type</var></dt>
+					<dd><code>string</code><br>$content_type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="to" id="_to">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_to">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#249-265" title="Go to source code">to</a>( <span>string|array <var>$addresses</var></span>, <span>string|null <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the to address of this message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the to address of this message.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$addresses</var></dt>
+					<dd><code>string|array</code><br>$addresses</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string|null</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replyTo" id="_replyTo">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replyTo">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#267-283" title="Go to source code">replyTo</a>( <span>string|array <var>$addresses</var></span>, <span>string|null <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the replyTo address of this message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the replyTo address of this message.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$addresses</var></dt>
+					<dd><code>string|array</code><br>$addresses</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string|null</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="from" id="_from">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_from">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#285-301" title="Go to source code">from</a>( <span>string|array <var>$addresses</var></span>, <span>string|null <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the from address of this message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the from address of this message.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$addresses</var></dt>
+					<dd><code>string|array</code><br>$addresses</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string|null</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="cc" id="_cc">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_cc">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#303-319" title="Go to source code">cc</a>( <span>string|array <var>$addresses</var></span>, <span>string|null <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the cc address of this message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the cc address of this message.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$addresses</var></dt>
+					<dd><code>string|array</code><br>$addresses</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string|null</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="bcc" id="_bcc">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_bcc">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#321-337" title="Go to source code">bcc</a>( <span>string|array <var>$addresses</var></span>, <span>string|null <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the bcc address of this message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the bcc address of this message.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$addresses</var></dt>
+					<dd><code>string|array</code><br>$addresses</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string|null</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attach" id="_attach">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attach">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#339-367" title="Go to source code">attach</a>( <span>string <var>$file</var></span>, <span>string|null <var>$name</var> = <span class="php-keyword1">null</span></span>, <span>string|null <var>$content_type</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$data</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set attchment for this message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set attchment for this message.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file Attach file or attach data</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string|null</code><br>$name</dd>
+					<dt><var>$content_type</var></dt>
+					<dd><code>string|null</code><br>$content_type</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>boolean</code><br>$data Set true for attach data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dataAttach" id="_dataAttach">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dataAttach">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#369-380" title="Go to source code">dataAttach</a>( <span>string <var>$data</var></span>, <span>string|null <var>$name</var> = <span class="php-keyword1">null</span></span>, <span>string|null <var>$content_type</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set data attchment for this message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set data attchment for this message.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code><br>$data Attach data</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string|null</code><br>$name</dd>
+					<dt><var>$content_type</var></dt>
+					<dd><code>string|null</code><br>$content_type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="inputAttach" id="_inputAttach">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_inputAttach">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#382-394" title="Go to source code">inputAttach</a>( <span>string <var>$data</var></span>, <span>string|null <var>$name</var> = <span class="php-keyword1">null</span></span>, <span>string|null <var>$content_type</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set attchment from input data for this message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set attchment from input data for this message.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code><br>$input</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string|null</code><br>$name</dd>
+					<dt><var>$content_type</var></dt>
+					<dd><code>string|null</code><br>$content_type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="embed" id="_embed">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_embed">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#396-405" title="Go to source code">embed</a>( <span>mixed <var>$file</var></span> )</code>
+
+		<div class="description short">
+			
+<p>undocumented function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>undocumented function</p>
+
+
+
+
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Nyan Lynn Htut<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="priority" id="_priority">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_priority">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#407-420" title="Go to source code">priority</a>( <span>integer <var>$priority</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the priority of this message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the priority of this message.</p>
+
+<p>The value is an integer where 1 is the highest priority and 5 is the
+lowest.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$priority</var></dt>
+					<dd><code>integer</code><br>$priority</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Mail.Mailer.html">Reborn\Mail\Mailer</a></code></code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="send" id="_send">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_send">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#422-449" title="Go to source code">send</a>( <span>boolean <var>$fake</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Send message with swift mailer.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Send message with swift mailer.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fake</var></dt>
+					<dd><code>boolean</code><br>$fake Use fake sending for test.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fakeSend" id="_fakeSend">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fakeSend">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#451-463" title="Go to source code">fakeSend</a>( )</code>
+
+		<div class="description short">
+			
+<p>Fake Send for mail testing. You can check this mail message file at
+STORAGES/tmp/Y-m-d-H-i-subject-title.mail</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fake Send for mail testing. You can check this mail message file at
+STORAGES/tmp/Y-m-d-H-i-subject-title.mail</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFakeMailPath" id="_getFakeMailPath">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFakeMailPath">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#465-475" title="Go to source code">getFakeMailPath</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get Fake Email File Path</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Fake Email File Path</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBodyData" id="_getBodyData">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBodyData">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#477-499" title="Go to source code">getBodyData</a>( <span>string <var>$message</var></span>, <span>string <var>$template</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Message Body with replace binded data.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Message Body with replace binded data.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+					<dt><var>$template</var></dt>
+					<dd><code>string</code><br>$template</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prepareCheckForSending" id="_prepareCheckForSending">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prepareCheckForSending">#</a>
+		<code><a href="source-class-Reborn.Mail.Mailer.html#501-514" title="Go to source code">prepareCheckForSending</a>( )</code>
+
+		<div class="description short">
+			
+<p>Prepare check for message from address before send.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prepare check for message from address before send.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="manager" id="$manager">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Reborn.Mail.Manager.html">Reborn\Mail\Manager</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Mail.Mailer.html#18-23" title="Go to source code"><var>$manager</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$manager" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Transport manager instance</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Transport manager instance</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="mailer" id="$mailer">
+		<td class="attributes"><code>
+			protected  
+			Swift_Mailer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Mail.Mailer.html#25-30" title="Go to source code"><var>$mailer</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$mailer" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Swift_Mailer instance</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Swift_Mailer instance</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="message" id="$message">
+		<td class="attributes"><code>
+			protected  
+			Swift_Message
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Mail.Mailer.html#32-37" title="Go to source code"><var>$message</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$message" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Swift_Message instance</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Swift_Message instance</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="message_data" id="$message_data">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Mail.Mailer.html#39-44" title="Go to source code"><var>$message_data</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$message_data" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Data array for message body's placeholder.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Data array for message body's placeholder.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="template_path" id="$template_path">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Mail.Mailer.html#46-51" title="Go to source code"><var>$template_path</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$template_path" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Message main layout template folder path</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Message main layout template folder path</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="$error">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Mail.Mailer.html#53-58" title="Go to source code"><var>$error</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$error" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Variable for error message</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Variable for error message</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="failer" id="$failer">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Mail.Mailer.html#60-65" title="Go to source code"><var>$failer</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$failer" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Failer addresses from mail sending</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Failer addresses from mail sending</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+			<div id="footer">
+				<div id="rb-logo"></div>
+				Reborn CMS Version 2.0 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

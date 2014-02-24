@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Reborn\Module\Handler\MultisiteHandler | Reborn CMS Version 2.0</title>
+
+	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
+	<script type="text/javascript" src="elementlist.js?1631347535"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
+
+</head>
+
+<body>
+
+<div id="top-bar">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" placeholder="Search..." class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Reborn.Module.Handler.html" title="Summary of Reborn\Module\Handler"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+</div>
+
+<div id="container">
+	<div id="left">
+		<div id="menu">
+			<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+			<div id="groups">
+				<h3>Namespaces</h3>
+				<ul>
+					<li><a href="namespace-None.html">None</a>
+							</li>
+					<li><a href="namespace-PHP.html">PHP</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.html">Asset<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.html">Extensions<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.Type.html">Type</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Auth.html">Auth<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.html">Sentry<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.Eloquent.html">Eloquent</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Config.html">Config</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.html">Connector<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.DB.html">DB</a>
+							</li>
+					<li><a href="namespace-Reborn.Connector.Log.html">Log<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Console.html">Console</a>
+							</li>
+					<li><a href="namespace-Reborn.Cores.html">Cores</a>
+							</li>
+					<li><a href="namespace-Reborn.Dummy.html">Dummy</a>
+							</li>
+					<li><a href="namespace-Reborn.Event.html">Event</a>
+							</li>
+					<li><a href="namespace-Reborn.Exception.html">Exception</a>
+							</li>
+					<li><a href="namespace-Reborn.Filesystem.html">Filesystem</a>
+							</li>
+					<li><a href="namespace-Reborn.FileUpload.html">FileUpload</a>
+							</li>
+					<li><a href="namespace-Reborn.Form.html">Form</a>
+							</li>
+					<li><a href="namespace-Reborn.Http.html">Http</a>
+							</li>
+					<li><a href="namespace-Reborn.Mail.html">Mail</a>
+							</li>
+					<li class="active"><a href="namespace-Reborn.Module.html">Module<span></span></a>
+							<ul>
+					<li class="active"><a href="namespace-Reborn.Module.Handler.html">Handler</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.Controller.Exception.html">Exception</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.MVC.Model.html">Model</a>
+							</li>
+					<li><a href="namespace-Reborn.MVC.View.html">View<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
+							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Pagination.html">Pagination</a>
+							</li>
+					<li><a href="namespace-Reborn.Parser.html">Parser</a>
+							</li>
+					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
+							</li>
+					<li><a href="namespace-Reborn.Routing.html">Routing</a>
+							</li>
+					<li><a href="namespace-Reborn.Table.html">Table<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Table.DataTable.html">DataTable</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
+							</li>
+								</ul></li>
+					<li><a href="namespace-Reborn.UI.html">UI<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.JqueryUi.html">JqueryUi</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.html">Solid<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Facade.html">Facade</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.Form.html">Form<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Form.Field.html">Field</a>
+							</li>
+								</ul></li></ul></li></ul></li>
+					<li><a href="namespace-Reborn.Util.html">Util</a>
+							</li>
+					<li><a href="namespace-Reborn.Widget.html">Widget</a>
+							</li>
+								</ul></li>
+				</ul>
+			</div>
+
+			<hr />
+
+
+			<div id="elements">
+				<h3>Classes</h3>
+				<ul>
+					<li><a href="class-Reborn.Module.Handler.BaseHandler.html">BaseHandler</a></li>
+					<li class="active"><a href="class-Reborn.Module.Handler.MultisiteHandler.html">MultisiteHandler</a></li>
+				</ul>
+
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+	<div id="splitter"></div>
+
+	<div id="right">
+		<div id="rightInner">
+
+<div id="content" class="class">
+	<h1>Class MultisiteHandler</h1>
+
+
+	<div class="description">
+	
+<p>Base (Normal) Module Handler</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Reborn.Module.Handler.BaseHandler.html"><span>Reborn\Module\Handler\BaseHandler</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Reborn\Module\Handler\MultisiteHandler</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Reborn.html">Reborn</a>\<a href="namespace-Reborn.Module.html">Module</a>\<a href="namespace-Reborn.Module.Handler.html">Handler</a><br />
+		<b>Package:</b> Reborn\Module<br />
+
+				<b>Author:</b>
+				MyanmarLinks Professional Web Development Team<br />
+		<b>Located at</b> <a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#8-238" title="Go to source code">Reborn/Module/Handler/MultisiteHandler.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#30-42" title="Go to source code">__construct</a>( <span><code><a href="class-Reborn.Cores.Application.html">Reborn\Cores\Application</a></code> <var>$app</var></span>, <span>string|null <var>$prefix</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Override Default instance from BaseHandler</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Override Default instance from BaseHandler</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$app</var></dt>
+					<dd><code><code><a href="class-Reborn.Cores.Application.html">Reborn\Cores\Application</a></code></code><br>$app</dd>
+					<dt><var>$prefix</var></dt>
+					<dd><code>string|null</code><br>$prefix</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Reborn.Module.Handler.BaseHandler.html#___construct">Reborn\Module\Handler\BaseHandler::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="buildForNewSite" id="_buildForNewSite">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_buildForNewSite">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#44-57" title="Go to source code">buildForNewSite</a>( <span>array <var>$force_share</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Build for new site.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Build for new site.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$force_share</var></dt>
+					<dd><code>array</code><br>$force_share</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeSiteModules" id="_removeSiteModules">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeSiteModules">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#59-72" title="Go to source code">removeSiteModules</a>( <span>array <var>$force_share</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Remove modules of site.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove modules of site.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$force_share</var></dt>
+					<dd><code>array</code><br>$force_share</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setModulePath" id="_setModulePath">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setModulePath">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#74-83" title="Go to source code">setModulePath</a>( <span>string <var>$path</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set table prefix name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set table prefix name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>$prefix</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setPrefix" id="_setPrefix">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setPrefix">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#85-94" title="Go to source code">setPrefix</a>( <span>string <var>$prefix</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set table prefix name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set table prefix name.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$prefix</var></dt>
+					<dd><code>string</code><br>$prefix</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPrefix" id="_getPrefix">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPrefix">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#96-108" title="Go to source code">getPrefix</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get table prefix for module table.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get table prefix for module table.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTable" id="_getTable">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTable">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#110-118" title="Go to source code">getTable</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get Database table name</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Database table name</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Reborn.Module.Handler.BaseHandler.html#_getTable">Reborn\Module\Handler\BaseHandler::getTable()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getModulePaths" id="_getModulePaths">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getModulePaths">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#120-132" title="Go to source code">getModulePaths</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get module folder paths</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get module folder paths</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Reborn.Module.Handler.BaseHandler.html#_getModulePaths">Reborn\Module\Handler\BaseHandler::getModulePaths()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="findModuleForNewSite" id="_findModuleForNewSite">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_findModuleForNewSite">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#134-148" title="Go to source code">findModuleForNewSite</a>( )</code>
+
+		<div class="description short">
+			
+<p>Find Public (Core and Shared) and Private Modules.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Find Public (Core and Shared) and Private Modules.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="installForNewSite" id="_installForNewSite">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_installForNewSite">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#150-185" title="Go to source code">installForNewSite</a>( <span>array <var>$all</var></span>, <span>boolean <var>$force</var> = <span class="php-keyword1">false</span></span>, <span>array <var>$force_share</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Install modules for new site.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Install modules for new site.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$all</var></dt>
+					<dd><code>array</code><br>$all</dd>
+					<dt><var>$force</var></dt>
+					<dd><code>boolean</code><br>$force Force for install</dd>
+					<dt><var>$force_share</var></dt>
+					<dd><code>array</code><br>$force_share Shared by User</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeFromSite" id="_removeFromSite">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeFromSite">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#187-217" title="Go to source code">removeFromSite</a>( <span>array <var>$all</var></span>, <span>boolean <var>$force</var> = <span class="php-keyword1">false</span></span>, <span>array <var>$force_share</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>UnInstall modules from site.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>UnInstall modules from site.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$all</var></dt>
+					<dd><code>array</code><br>$all</dd>
+					<dt><var>$force</var></dt>
+					<dd><code>boolean</code><br>$force Force for remove</dd>
+					<dt><var>$force_share</var></dt>
+					<dd><code>array</code><br>$force_share Shared by User</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="moduleProcessing" id="_moduleProcessing">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_moduleProcessing">#</a>
+		<code><a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#219-236" title="Go to source code">moduleProcessing</a>( <span><code><a href="class-Reborn.Module.Builder.html">Reborn\Module\Builder</a></code> <var>$module</var></span>, <span>string <var>$method</var> = <span class="php-quote">'install'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Make Module Install?Uninstall processing.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Make Module Install?Uninstall processing.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$module</var></dt>
+					<dd><code><code><a href="class-Reborn.Module.Builder.html">Reborn\Module\Builder</a></code></code><br>$module</dd>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method Processing method. (install or uninstall)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Reborn.Module.Handler.BaseHandler.html#methods">Reborn\Module\Handler\BaseHandler</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#___call">__call()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_adminMenu">adminMenu()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_boot">boot()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_coreModulesRegister">coreModulesRegister()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_createModuleBuilder">createModuleBuilder()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_disable">disable()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_enable">enable()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_findAll">findAll()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_findFrom">findFrom()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_findNews">findNews()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_findPath">findPath()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_get">get()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_getAll">getAll()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_getBootstrap">getBootstrap()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_getInstaller">getInstaller()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_getModuleInfo">getModuleInfo()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_getModulesByFilter">getModulesByFilter()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_has">has()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_install">install()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_load">load()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_moduleToolbar">moduleToolbar()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_otherModulesRegister">otherModulesRegister()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_prepareFromDatabase">prepareFromDatabase()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_registerInstalledModules">registerInstalledModules()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_settings">settings()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_uninstall">uninstall()</a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#_upgrade">upgrade()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="prefix" id="$prefix">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#16-21" title="Go to source code"><var>$prefix</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$prefix" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Database prefix name.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Database prefix name.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="module_path" id="$module_path">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Module.Handler.MultisiteHandler.html#23-28" title="Go to source code"><var>$module_path</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$module_path" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Module content path for site.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Module content path for site.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Reborn.Module.Handler.BaseHandler.html#properties">Reborn\Module\Handler\BaseHandler</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#$app"><var>$app</var></a>, 
+			<a href="class-Reborn.Module.Handler.BaseHandler.html#$modules"><var>$modules</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+			<div id="footer">
+				<div id="rb-logo"></div>
+				Reborn CMS Version 2.0 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

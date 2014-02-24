@@ -5,10 +5,10 @@
 	<meta name="generator" content="ApiGen 2.8.0" />
 	<meta name="robots" content="noindex" />
 
-	<title>File Reborn/Fileupload/FileUpload.php | Reborn CMS 2.0 API</title>
+	<title>File Reborn/Fileupload/FileUpload.php | Reborn CMS Version 2.0</title>
 
 	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
-	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<script type="text/javascript" src="elementlist.js?1631347535"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
 
 </head>
@@ -60,8 +60,20 @@
 							</li>
 					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
 							<ul>
-					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+					<li><a href="namespace-Reborn.Asset.html">Asset<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.html">Extensions<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.Type.html">Type</a>
 							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Auth.html">Auth<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.html">Sentry<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.Eloquent.html">Eloquent</a>
+							</li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
@@ -77,10 +89,7 @@
 							<ul>
 					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
 							</li>
-								</ul></li>
-					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
-							</li>
-								</ul></li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Console.html">Console</a>
 							</li>
 					<li><a href="namespace-Reborn.Cores.html">Cores</a>
@@ -99,8 +108,13 @@
 							</li>
 					<li><a href="namespace-Reborn.Http.html">Http</a>
 							</li>
-					<li><a href="namespace-Reborn.Module.html">Module</a>
+					<li><a href="namespace-Reborn.Mail.html">Mail</a>
 							</li>
+					<li><a href="namespace-Reborn.Module.html">Module<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Module.Handler.html">Handler</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
@@ -115,15 +129,37 @@
 					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
 							</li>
 								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Pagination.html">Pagination</a>
+							</li>
+					<li><a href="namespace-Reborn.Parser.html">Parser</a>
+							</li>
 					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
 							</li>
-					<li><a href="namespace-Reborn.Route.html">Route</a>
+					<li><a href="namespace-Reborn.Routing.html">Routing</a>
 							</li>
+					<li><a href="namespace-Reborn.Table.html">Table<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Table.DataTable.html">DataTable</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
 							</li>
 								</ul></li>
+					<li><a href="namespace-Reborn.UI.html">UI<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.JqueryUi.html">JqueryUi</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.html">Solid<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Facade.html">Facade</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.Form.html">Form<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Form.Field.html">Field</a>
+							</li>
+								</ul></li></ul></li></ul></li>
 					<li><a href="namespace-Reborn.Util.html">Util</a>
 							</li>
 					<li><a href="namespace-Reborn.Widget.html">Widget</a>
@@ -390,45 +426,48 @@
 </span><span id="233" class="l"><a class="l" href="#233">233: </a>        } <span class="php-keyword1">else</span> {
 </span><span id="234" class="l"><a class="l" href="#234">234: </a>            <span class="php-var">$this</span>-&gt;<span class="php-keyword2">file</span>-&gt;move(<span class="php-var">$this</span>-&gt;config[<span class="php-quote">'path'</span>], <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedName'</span>]);
 </span><span id="235" class="l"><a class="l" href="#235">235: </a>
-</span><span id="236" class="l"><a class="l" href="#236">236: </a>            <span class="php-keyword1">return</span> <span class="php-keyword1">true</span>;
-</span><span id="237" class="l"><a class="l" href="#237">237: </a>        }
-</span><span id="238" class="l"><a class="l" href="#238">238: </a>    }
-</span><span id="239" class="l"><a class="l" href="#239">239: </a>
-</span><span id="240" class="l"><a class="l" href="#240">240: </a>    <span class="php-comment">/**
-</span></span><span id="241" class="l"><a class="l" href="#241">241: </a><span class="php-comment">     * File renaming function. If filename is already exist,
-</span></span><span id="242" class="l"><a class="l" href="#242">242: </a><span class="php-comment">     * this method will rename the uploaded filename with serial surfix.
-</span></span><span id="243" class="l"><a class="l" href="#243">243: </a><span class="php-comment">     * (eg. file_1.ext, file_2.ext)
-</span></span><span id="244" class="l"><a class="l" href="#244">244: </a><span class="php-comment">     *
-</span></span><span id="245" class="l"><a class="l" href="#245">245: </a><span class="php-comment">     * @param String $fileDir the directory you want to upload
-</span></span><span id="246" class="l"><a class="l" href="#246">246: </a><span class="php-comment">     * @param String $name the name of the file you uploaded
-</span></span><span id="247" class="l"><a class="l" href="#247">247: </a><span class="php-comment">     * @return String Renamed filename will return
-</span></span><span id="248" class="l"><a class="l" href="#248">248: </a><span class="php-comment">     * @author RebornCMS Development Team
-</span></span><span id="249" class="l"><a class="l" href="#249">249: </a><span class="php-comment">     **/</span>
-</span><span id="250" class="l"><a class="l" href="#250">250: </a>    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> <span class="php-keyword2">rename</span>()
-</span><span id="251" class="l"><a class="l" href="#251">251: </a>    {
-</span><span id="252" class="l"><a class="l" href="#252">252: </a>        <span class="php-var">$matching</span> = <span class="php-keyword2">preg_match_all</span>(<span class="php-quote">'/^(\w*)_(\d\d?)\.(\w*)$/'</span>,
-</span><span id="253" class="l"><a class="l" href="#253">253: </a>            <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedName'</span>], <span class="php-var">$match</span>);
-</span><span id="254" class="l"><a class="l" href="#254">254: </a>
-</span><span id="255" class="l"><a class="l" href="#255">255: </a>        <span class="php-keyword1">if</span> (<span class="php-var">$matching</span>) {
-</span><span id="256" class="l"><a class="l" href="#256">256: </a>            <span class="php-var">$count</span> = ((int)<span class="php-var">$match</span>[<span class="php-num">2</span>][<span class="php-num">0</span>])+<span class="php-num">1</span>;
+</span><span id="236" class="l"><a class="l" href="#236">236: </a>            <span class="php-keyword2">chmod</span>(<span class="php-var">$this</span>-&gt;config[<span class="php-quote">'path'</span>] . <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedName'</span>],
+</span><span id="237" class="l"><a class="l" href="#237">237: </a>                <span class="php-var">$this</span>-&gt;config[<span class="php-quote">'fileChmod'</span>]);
+</span><span id="238" class="l"><a class="l" href="#238">238: </a>
+</span><span id="239" class="l"><a class="l" href="#239">239: </a>            <span class="php-keyword1">return</span> <span class="php-keyword1">true</span>;
+</span><span id="240" class="l"><a class="l" href="#240">240: </a>        }
+</span><span id="241" class="l"><a class="l" href="#241">241: </a>    }
+</span><span id="242" class="l"><a class="l" href="#242">242: </a>
+</span><span id="243" class="l"><a class="l" href="#243">243: </a>    <span class="php-comment">/**
+</span></span><span id="244" class="l"><a class="l" href="#244">244: </a><span class="php-comment">     * File renaming function. If filename is already exist,
+</span></span><span id="245" class="l"><a class="l" href="#245">245: </a><span class="php-comment">     * this method will rename the uploaded filename with serial surfix.
+</span></span><span id="246" class="l"><a class="l" href="#246">246: </a><span class="php-comment">     * (eg. file_1.ext, file_2.ext)
+</span></span><span id="247" class="l"><a class="l" href="#247">247: </a><span class="php-comment">     *
+</span></span><span id="248" class="l"><a class="l" href="#248">248: </a><span class="php-comment">     * @param String $fileDir the directory you want to upload
+</span></span><span id="249" class="l"><a class="l" href="#249">249: </a><span class="php-comment">     * @param String $name the name of the file you uploaded
+</span></span><span id="250" class="l"><a class="l" href="#250">250: </a><span class="php-comment">     * @return String Renamed filename will return
+</span></span><span id="251" class="l"><a class="l" href="#251">251: </a><span class="php-comment">     * @author RebornCMS Development Team
+</span></span><span id="252" class="l"><a class="l" href="#252">252: </a><span class="php-comment">     **/</span>
+</span><span id="253" class="l"><a class="l" href="#253">253: </a>    <span class="php-keyword1">private</span> <span class="php-keyword1">function</span> <span class="php-keyword2">rename</span>()
+</span><span id="254" class="l"><a class="l" href="#254">254: </a>    {
+</span><span id="255" class="l"><a class="l" href="#255">255: </a>        <span class="php-var">$matching</span> = <span class="php-keyword2">preg_match_all</span>(<span class="php-quote">'/^(\w*)_(\d\d?)\.(\w*)$/'</span>,
+</span><span id="256" class="l"><a class="l" href="#256">256: </a>            <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedName'</span>], <span class="php-var">$match</span>);
 </span><span id="257" class="l"><a class="l" href="#257">257: </a>
-</span><span id="258" class="l"><a class="l" href="#258">258: </a>            <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedName'</span>] = <span class="php-var">$match</span>[<span class="php-num">1</span>][<span class="php-num">0</span>] . <span class="php-quote">'_'</span> . <span class="php-var">$count</span> . <span class="php-quote">'.'</span>
-</span><span id="259" class="l"><a class="l" href="#259">259: </a>                . <span class="php-var">$match</span>[<span class="php-num">3</span>][<span class="php-num">0</span>];
+</span><span id="258" class="l"><a class="l" href="#258">258: </a>        <span class="php-keyword1">if</span> (<span class="php-var">$matching</span>) {
+</span><span id="259" class="l"><a class="l" href="#259">259: </a>            <span class="php-var">$count</span> = ((int)<span class="php-var">$match</span>[<span class="php-num">2</span>][<span class="php-num">0</span>])+<span class="php-num">1</span>;
 </span><span id="260" class="l"><a class="l" href="#260">260: </a>
-</span><span id="261" class="l"><a class="l" href="#261">261: </a>            <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedBaseName'</span>] = <span class="php-var">$match</span>[<span class="php-num">1</span>][<span class="php-num">0</span>] . <span class="php-quote">'_'</span> . <span class="php-var">$count</span>;
-</span><span id="262" class="l"><a class="l" href="#262">262: </a>            
-</span><span id="263" class="l"><a class="l" href="#263">263: </a>        } <span class="php-keyword1">else</span> {
-</span><span id="264" class="l"><a class="l" href="#264">264: </a>            <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedName'</span>] = <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedBaseName'</span>] 
-</span><span id="265" class="l"><a class="l" href="#265">265: </a>                . <span class="php-quote">'_1'</span> . <span class="php-quote">'.'</span> . <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'extension'</span>];
-</span><span id="266" class="l"><a class="l" href="#266">266: </a>
-</span><span id="267" class="l"><a class="l" href="#267">267: </a>            <span class="php-var">$this</span>-&gt;fileInof[<span class="php-quote">'savedBaseName'</span>] = <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedBaseName'</span>] . <span class="php-quote">'_1'</span>;
-</span><span id="268" class="l"><a class="l" href="#268">268: </a>        }
-</span><span id="269" class="l"><a class="l" href="#269">269: </a>    }
-</span><span id="270" class="l"><a class="l" href="#270">270: </a></span>}</code></pre>
+</span><span id="261" class="l"><a class="l" href="#261">261: </a>            <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedName'</span>] = <span class="php-var">$match</span>[<span class="php-num">1</span>][<span class="php-num">0</span>] . <span class="php-quote">'_'</span> . <span class="php-var">$count</span> . <span class="php-quote">'.'</span>
+</span><span id="262" class="l"><a class="l" href="#262">262: </a>                . <span class="php-var">$match</span>[<span class="php-num">3</span>][<span class="php-num">0</span>];
+</span><span id="263" class="l"><a class="l" href="#263">263: </a>
+</span><span id="264" class="l"><a class="l" href="#264">264: </a>            <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedBaseName'</span>] = <span class="php-var">$match</span>[<span class="php-num">1</span>][<span class="php-num">0</span>] . <span class="php-quote">'_'</span> . <span class="php-var">$count</span>;
+</span><span id="265" class="l"><a class="l" href="#265">265: </a>            
+</span><span id="266" class="l"><a class="l" href="#266">266: </a>        } <span class="php-keyword1">else</span> {
+</span><span id="267" class="l"><a class="l" href="#267">267: </a>            <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedName'</span>] = <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedBaseName'</span>] 
+</span><span id="268" class="l"><a class="l" href="#268">268: </a>                . <span class="php-quote">'_1'</span> . <span class="php-quote">'.'</span> . <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'extension'</span>];
+</span><span id="269" class="l"><a class="l" href="#269">269: </a>
+</span><span id="270" class="l"><a class="l" href="#270">270: </a>            <span class="php-var">$this</span>-&gt;fileInof[<span class="php-quote">'savedBaseName'</span>] = <span class="php-var">$this</span>-&gt;fileInfo[<span class="php-quote">'savedBaseName'</span>] . <span class="php-quote">'_1'</span>;
+</span><span id="271" class="l"><a class="l" href="#271">271: </a>        }
+</span><span id="272" class="l"><a class="l" href="#272">272: </a>    }
+</span><span id="273" class="l"><a class="l" href="#273">273: </a></span>}</code></pre>
 
 			<div id="footer">
 				<div id="rb-logo"></div>
-				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+				Reborn CMS Version 2.0 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
 			</div>
 		</div>
 	</div>

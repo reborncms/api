@@ -4,10 +4,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="generator" content="ApiGen 2.8.0" />
 
-	<title>Class Reborn\Filesystem\Directory | Reborn CMS 2.0 API</title>
+	<title>Class Reborn\Filesystem\Directory | Reborn CMS Version 2.0</title>
 
 	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
-	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<script type="text/javascript" src="elementlist.js?1631347535"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
 
 </head>
@@ -58,8 +58,20 @@
 							</li>
 					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
 							<ul>
-					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+					<li><a href="namespace-Reborn.Asset.html">Asset<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.html">Extensions<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.Type.html">Type</a>
 							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Auth.html">Auth<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.html">Sentry<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.Eloquent.html">Eloquent</a>
+							</li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
@@ -75,10 +87,7 @@
 							<ul>
 					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
 							</li>
-								</ul></li>
-					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
-							</li>
-								</ul></li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Console.html">Console</a>
 							</li>
 					<li><a href="namespace-Reborn.Cores.html">Cores</a>
@@ -97,8 +106,13 @@
 							</li>
 					<li><a href="namespace-Reborn.Http.html">Http</a>
 							</li>
-					<li><a href="namespace-Reborn.Module.html">Module</a>
+					<li><a href="namespace-Reborn.Mail.html">Mail</a>
 							</li>
+					<li><a href="namespace-Reborn.Module.html">Module<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Module.Handler.html">Handler</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
@@ -113,15 +127,37 @@
 					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
 							</li>
 								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Pagination.html">Pagination</a>
+							</li>
+					<li><a href="namespace-Reborn.Parser.html">Parser</a>
+							</li>
 					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
 							</li>
-					<li><a href="namespace-Reborn.Route.html">Route</a>
+					<li><a href="namespace-Reborn.Routing.html">Routing</a>
 							</li>
+					<li><a href="namespace-Reborn.Table.html">Table<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Table.DataTable.html">DataTable</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
 							</li>
 								</ul></li>
+					<li><a href="namespace-Reborn.UI.html">UI<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.JqueryUi.html">JqueryUi</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.html">Solid<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Facade.html">Facade</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.Form.html">Form<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Form.Field.html">Field</a>
+							</li>
+								</ul></li></ul></li></ul></li>
 					<li><a href="namespace-Reborn.Util.html">Util</a>
 							</li>
 					<li><a href="namespace-Reborn.Widget.html">Widget</a>
@@ -184,7 +220,7 @@
 
 				<b>Author:</b>
 				Myanmar Links Professional Web Development Team<br />
-		<b>Located at</b> <a href="source-class-Reborn.Filesystem.Directory.html#6-128" title="Go to source code">Reborn/Filesystem/Directory.php</a><br />
+		<b>Located at</b> <a href="source-class-Reborn.Filesystem.Directory.html#6-137" title="Go to source code">Reborn/Filesystem/Directory.php</a><br />
 	</div>
 
 
@@ -202,7 +238,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_get">#</a>
-		<code><a href="source-class-Reborn.Filesystem.Directory.html#15-29" title="Go to source code">get</a>( <span>string <var>$path</var></span>, <span>string <var>$flag</var> = <span class="php-num">0</span></span> )</code>
+		<code><a href="source-class-Reborn.Filesystem.Directory.html#15-28" title="Go to source code">get</a>( <span>string <var>$path</var></span>, <span>integer <var>$flag</var> = <span class="php-num">0</span></span> )</code>
 
 		<div class="description short">
 			
@@ -223,7 +259,7 @@ function.</p>
 					<dt><var>$path</var></dt>
 					<dd><code>string</code><br>$path Path for the dir</dd>
 					<dt><var>$flag</var></dt>
-					<dd><code>string</code><br>$pattern Pattern for glob(). Default is "*".</dd>
+					<dd><code>integer</code><br>$flag Detail at php's glob().</dd>
 				</dl></div>
 
 
@@ -244,7 +280,7 @@ function.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_is">#</a>
-		<code><a href="source-class-Reborn.Filesystem.Directory.html#31-41" title="Go to source code">is</a>( <span>string <var>$path</var></span> )</code>
+		<code><a href="source-class-Reborn.Filesystem.Directory.html#30-40" title="Go to source code">is</a>( <span>string <var>$path</var></span> )</code>
 
 		<div class="description short">
 			
@@ -288,7 +324,7 @@ is_dir() function.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_make">#</a>
-		<code><a href="source-class-Reborn.Filesystem.Directory.html#43-55" title="Go to source code">make</a>( <span>string <var>$path</var></span>, <span>integer <var>$mode</var> = <span class="php-num">0777</span></span>, <span>boolean <var>$recursive</var> = <span class="php-keyword1">false</span></span> )</code>
+		<code><a href="source-class-Reborn.Filesystem.Directory.html#42-54" title="Go to source code">make</a>( <span>string <var>$path</var></span>, <span>integer <var>$mode</var> = <span class="php-num">0777</span></span>, <span>boolean <var>$recursive</var> = <span class="php-keyword1">false</span></span> )</code>
 
 		<div class="description short">
 			
@@ -334,7 +370,7 @@ is_dir() function.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_copy">#</a>
-		<code><a href="source-class-Reborn.Filesystem.Directory.html#57-97" title="Go to source code">copy</a>( <span>string <var>$path</var></span>, <span>string <var>$dest</var></span> )</code>
+		<code><a href="source-class-Reborn.Filesystem.Directory.html#56-96" title="Go to source code">copy</a>( <span>string <var>$path</var></span>, <span>string <var>$dest</var></span> )</code>
 
 		<div class="description short">
 			
@@ -378,7 +414,7 @@ is_dir() function.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_delete">#</a>
-		<code><a href="source-class-Reborn.Filesystem.Directory.html#99-126" title="Go to source code">delete</a>( <span>string <var>$dirpath</var></span> )</code>
+		<code><a href="source-class-Reborn.Filesystem.Directory.html#98-135" title="Go to source code">delete</a>( <span>string <var>$dirpath</var></span>, <span>boolean <var>$remove_this</var> = <span class="php-keyword1">true</span></span>, <span>mixed <var>$skips</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			
@@ -398,6 +434,10 @@ But this method is support recursive delete from the given folder.</p>
 				<div class="list"><dl>
 					<dt><var>$dirpath</var></dt>
 					<dd><code>string</code><br>$dirpath</dd>
+					<dt><var>$remove_this</var></dt>
+					<dd><code>boolean</code><br>$remove_this Remove this given folder</dd>
+					<dt><var>$skips</var></dt>
+					<dd></dd>
 				</dl></div>
 
 				<h4>Returns</h4>
@@ -434,7 +474,7 @@ But this method is support recursive delete from the given folder.</p>
 
 			<div id="footer">
 				<div id="rb-logo"></div>
-				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+				Reborn CMS Version 2.0 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
 			</div>
 		</div>
 	</div>

@@ -5,10 +5,10 @@
 	<meta name="generator" content="ApiGen 2.8.0" />
 	<meta name="robots" content="noindex" />
 
-	<title>File Reborn/Event/EventInterface.php | Reborn CMS 2.0 API</title>
+	<title>File Reborn/Event/EventInterface.php | Reborn CMS Version 2.0</title>
 
 	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
-	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<script type="text/javascript" src="elementlist.js?1631347535"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
 
 </head>
@@ -60,8 +60,20 @@
 							</li>
 					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
 							<ul>
-					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+					<li><a href="namespace-Reborn.Asset.html">Asset<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.html">Extensions<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.Type.html">Type</a>
 							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Auth.html">Auth<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.html">Sentry<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.Eloquent.html">Eloquent</a>
+							</li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
@@ -77,10 +89,7 @@
 							<ul>
 					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
 							</li>
-								</ul></li>
-					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
-							</li>
-								</ul></li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Console.html">Console</a>
 							</li>
 					<li><a href="namespace-Reborn.Cores.html">Cores</a>
@@ -99,8 +108,13 @@
 							</li>
 					<li><a href="namespace-Reborn.Http.html">Http</a>
 							</li>
-					<li><a href="namespace-Reborn.Module.html">Module</a>
+					<li><a href="namespace-Reborn.Mail.html">Mail</a>
 							</li>
+					<li><a href="namespace-Reborn.Module.html">Module<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Module.Handler.html">Handler</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
@@ -115,15 +129,37 @@
 					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
 							</li>
 								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Pagination.html">Pagination</a>
+							</li>
+					<li><a href="namespace-Reborn.Parser.html">Parser</a>
+							</li>
 					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
 							</li>
-					<li><a href="namespace-Reborn.Route.html">Route</a>
+					<li><a href="namespace-Reborn.Routing.html">Routing</a>
 							</li>
+					<li><a href="namespace-Reborn.Table.html">Table<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Table.DataTable.html">DataTable</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
 							</li>
 								</ul></li>
+					<li><a href="namespace-Reborn.UI.html">UI<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.JqueryUi.html">JqueryUi</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.html">Solid<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Facade.html">Facade</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.Form.html">Form<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Form.Field.html">Field</a>
+							</li>
+								</ul></li></ul></li></ul></li>
 					<li><a href="namespace-Reborn.Util.html">Util</a>
 							</li>
 					<li><a href="namespace-Reborn.Widget.html">Widget</a>
@@ -221,12 +257,21 @@
 </span></span><span id="60" class="l"><a class="l" href="#60">60: </a><span class="php-comment">     */</span>
 </span><span id="61" class="l"><a class="l" href="#61">61: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_call" href="#_call">call</a>(<span class="php-var">$name</span>, <span class="php-var">$data</span> = <span class="php-keyword1">array</span>());
 </span><span id="62" class="l"><a class="l" href="#62">62: </a>
-</span><span id="63" class="l"><a class="l" href="#63">63: </a>} <span class="php-comment">// END Interface EventInterface</span>
-</span><span id="64" class="l"><a class="l" href="#64">64: </a></span></code></pre>
+</span><span id="63" class="l"><a class="l" href="#63">63: </a>
+</span><span id="64" class="l"><a class="l" href="#64">64: </a>    <span class="php-comment">/**
+</span></span><span id="65" class="l"><a class="l" href="#65">65: </a><span class="php-comment">     * Subscribe for events
+</span></span><span id="66" class="l"><a class="l" href="#66">66: </a><span class="php-comment">     *
+</span></span><span id="67" class="l"><a class="l" href="#67">67: </a><span class="php-comment">     * @param mixed $handler Event subscribe handler
+</span></span><span id="68" class="l"><a class="l" href="#68">68: </a><span class="php-comment">     * @return void
+</span></span><span id="69" class="l"><a class="l" href="#69">69: </a><span class="php-comment">     **/</span>
+</span><span id="70" class="l"><a class="l" href="#70">70: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_subscribe" href="#_subscribe">subscribe</a>(<span class="php-var">$handler</span>);
+</span><span id="71" class="l"><a class="l" href="#71">71: </a>
+</span><span id="72" class="l"><a class="l" href="#72">72: </a>} <span class="php-comment">// END Interface EventInterface</span>
+</span><span id="73" class="l"><a class="l" href="#73">73: </a></span></code></pre>
 
 			<div id="footer">
 				<div id="rb-logo"></div>
-				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+				Reborn CMS Version 2.0 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
 			</div>
 		</div>
 	</div>

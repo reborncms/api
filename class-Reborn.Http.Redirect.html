@@ -4,10 +4,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="generator" content="ApiGen 2.8.0" />
 
-	<title>Class Reborn\Http\Redirect | Reborn CMS 2.0 API</title>
+	<title>Class Reborn\Http\Redirect | Reborn CMS Version 2.0</title>
 
 	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
-	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<script type="text/javascript" src="elementlist.js?1631347535"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
 
 </head>
@@ -58,8 +58,20 @@
 							</li>
 					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
 							<ul>
-					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+					<li><a href="namespace-Reborn.Asset.html">Asset<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.html">Extensions<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.Type.html">Type</a>
 							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Auth.html">Auth<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.html">Sentry<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.Eloquent.html">Eloquent</a>
+							</li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
@@ -75,10 +87,7 @@
 							<ul>
 					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
 							</li>
-								</ul></li>
-					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
-							</li>
-								</ul></li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Console.html">Console</a>
 							</li>
 					<li><a href="namespace-Reborn.Cores.html">Cores</a>
@@ -97,8 +106,13 @@
 							</li>
 					<li class="active"><a href="namespace-Reborn.Http.html">Http</a>
 							</li>
-					<li><a href="namespace-Reborn.Module.html">Module</a>
+					<li><a href="namespace-Reborn.Mail.html">Mail</a>
 							</li>
+					<li><a href="namespace-Reborn.Module.html">Module<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Module.Handler.html">Handler</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
@@ -113,15 +127,37 @@
 					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
 							</li>
 								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Pagination.html">Pagination</a>
+							</li>
+					<li><a href="namespace-Reborn.Parser.html">Parser</a>
+							</li>
 					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
 							</li>
-					<li><a href="namespace-Reborn.Route.html">Route</a>
+					<li><a href="namespace-Reborn.Routing.html">Routing</a>
 							</li>
+					<li><a href="namespace-Reborn.Table.html">Table<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Table.DataTable.html">DataTable</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
 							</li>
 								</ul></li>
+					<li><a href="namespace-Reborn.UI.html">UI<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.JqueryUi.html">JqueryUi</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.html">Solid<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Facade.html">Facade</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.Form.html">Form<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Form.Field.html">Field</a>
+							</li>
+								</ul></li></ul></li></ul></li>
 					<li><a href="namespace-Reborn.Util.html">Util</a>
 							</li>
 					<li><a href="namespace-Reborn.Widget.html">Widget</a>
@@ -183,7 +219,7 @@
 
 				<b>Author:</b>
 				Myanmar Links Professional Web Development Team<br />
-		<b>Located at</b> <a href="source-class-Reborn.Http.Redirect.html#8-122" title="Go to source code">Reborn/Http/Redirect.php</a><br />
+		<b>Located at</b> <a href="source-class-Reborn.Http.Redirect.html#8-133" title="Go to source code">Reborn/Http/Redirect.php</a><br />
 	</div>
 
 
@@ -194,7 +230,7 @@
 
 		<td class="attributes"><code>
 			 public static
-			
+			Symfony\Component\HttpFoundation\RedirectResponse
 			
 			</code>
 		</td>
@@ -225,6 +261,10 @@
 					<dd><code>array</code><br>$headers Header properties for the Response</dd>
 				</dl></div>
 
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\RedirectResponse</code><br />
+				</div>
 
 
 
@@ -236,7 +276,7 @@
 
 		<td class="attributes"><code>
 			 public static
-			
+			Symfony\Component\HttpFoundation\RedirectResponse
 			
 			</code>
 		</td>
@@ -267,6 +307,54 @@
 					<dd><code>array</code><br>$headers Header properties for the Response</dd>
 				</dl></div>
 
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\RedirectResponse</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="back" id="_back">
+
+		<td class="attributes"><code>
+			 public static
+			Symfony\Component\HttpFoundation\RedirectResponse
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_back">#</a>
+		<code><a href="source-class-Reborn.Http.Redirect.html#50-62" title="Go to source code">back</a>( <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Redirect to the back url. (HTTP_REFERER)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Redirect to the back url. (HTTP_REFERER)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$status</var></dt>
+					<dd><code>integer</code><br>$status Response status code</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers Header properties for the Response</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\RedirectResponse</code><br />
+				</div>
 
 
 
@@ -278,14 +366,14 @@
 
 		<td class="attributes"><code>
 			 public static
-			
+			Symfony\Component\HttpFoundation\RedirectResponse
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_module">#</a>
-		<code><a href="source-class-Reborn.Http.Redirect.html#50-75" title="Go to source code">module</a>( <span>string <var>$url</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$admin</var> = <span class="php-keyword1">true</span></span>, <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+		<code><a href="source-class-Reborn.Http.Redirect.html#64-88" title="Go to source code">module</a>( <span>string <var>$url</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$admin</var> = <span class="php-keyword1">true</span></span>, <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			
@@ -311,6 +399,10 @@
 					<dd><code>array</code><br>$headers Header properties for the Response</dd>
 				</dl></div>
 
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\RedirectResponse</code><br />
+				</div>
 
 
 
@@ -322,14 +414,14 @@
 
 		<td class="attributes"><code>
 			 public static
-			
+			Symfony\Component\HttpFoundation\RedirectResponse
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_route">#</a>
-		<code><a href="source-class-Reborn.Http.Redirect.html#77-94" title="Go to source code">route</a>( <span>mixed <var>$name</var></span>, <span>mixed <var>$data</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$status</var> = <span class="php-num">302</span></span>, <span>mixed <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+		<code><a href="source-class-Reborn.Http.Redirect.html#90-107" title="Go to source code">route</a>( <span>mixed <var>$name</var></span>, <span>mixed <var>$data</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$status</var> = <span class="php-num">302</span></span>, <span>mixed <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			
@@ -344,39 +436,10 @@
 
 
 
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="notFound" id="_notFound">
-
-		<td class="attributes"><code>
-			 public static
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_notFound">#</a>
-		<code><a href="source-class-Reborn.Http.Redirect.html#96-106" title="Go to source code">notFound</a>( )</code>
-
-		<div class="description short">
-			
-<p>Redirect to the 404 Route</p>
-
-		</div>
-
-		<div class="description detailed hidden">
-			
-<p>Redirect to the 404 Route</p>
-
-
-
-
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\RedirectResponse</code><br />
+				</div>
 
 
 
@@ -387,25 +450,25 @@
 	<tr data-order="send" id="_send">
 
 		<td class="attributes"><code>
-			 protected static
-			
+			 public static
+			Symfony\Component\HttpFoundation\RedirectResponse
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_send">#</a>
-		<code><a href="source-class-Reborn.Http.Redirect.html#108-120" title="Go to source code">send</a>( <span>string <var>$url</var></span>, <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+		<code><a href="source-class-Reborn.Http.Redirect.html#109-121" title="Go to source code">send</a>( <span>string <var>$url</var></span>, <span>integer <var>$status</var> = <span class="php-num">302</span></span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			
-<p>Send the Redirect</p>
+<p>Create and Send the Redirect</p>
 
 		</div>
 
 		<div class="description detailed hidden">
 			
-<p>Send the Redirect</p>
+<p>Create and Send the Redirect</p>
 
 
 
@@ -419,6 +482,47 @@
 					<dd><code>array</code><br>$headers Header properties for the Response</dd>
 				</dl></div>
 
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Symfony\Component\HttpFoundation\RedirectResponse</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRequest" id="_getRequest">
+
+		<td class="attributes"><code>
+			 protected static
+			<code><a href="class-Reborn.Http.Request.html">Reborn\Http\Request</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRequest">#</a>
+		<code><a href="source-class-Reborn.Http.Redirect.html#123-131" title="Go to source code">getRequest</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get Request instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Request instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Reborn.Http.Request.html">Reborn\Http\Request</a></code></code><br />
+				</div>
 
 
 
@@ -449,7 +553,7 @@
 
 			<div id="footer">
 				<div id="rb-logo"></div>
-				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+				Reborn CMS Version 2.0 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
 			</div>
 		</div>
 	</div>

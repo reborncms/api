@@ -4,10 +4,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="generator" content="ApiGen 2.8.0" />
 
-	<title>Class Reborn\Connector\DB\DBManager | Reborn CMS 2.0 API</title>
+	<title>Class Reborn\Connector\DB\DBManager | Reborn CMS Version 2.0</title>
 
 	<script type="text/javascript" src="resources/combined.js?1329654283"></script>
-	<script type="text/javascript" src="elementlist.js?3033213966"></script>
+	<script type="text/javascript" src="elementlist.js?1631347535"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3068942423" />
 
 </head>
@@ -58,8 +58,20 @@
 							</li>
 					<li class="active"><a href="namespace-Reborn.html">Reborn<span></span></a>
 							<ul>
-					<li><a href="namespace-Reborn.Asset.html">Asset</a>
+					<li><a href="namespace-Reborn.Asset.html">Asset<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.html">Extensions<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Asset.Extensions.Type.html">Type</a>
 							</li>
+								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Auth.html">Auth<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.html">Sentry<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Auth.Sentry.Eloquent.html">Eloquent</a>
+							</li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Cache.html">Cache<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Cache.Driver.html">Driver</a>
@@ -75,10 +87,7 @@
 							<ul>
 					<li><a href="namespace-Reborn.Connector.Log.Log.html">Log</a>
 							</li>
-								</ul></li>
-					<li><a href="namespace-Reborn.Connector.Sentry.html">Sentry</a>
-							</li>
-								</ul></li>
+								</ul></li></ul></li>
 					<li><a href="namespace-Reborn.Console.html">Console</a>
 							</li>
 					<li><a href="namespace-Reborn.Cores.html">Cores</a>
@@ -97,8 +106,13 @@
 							</li>
 					<li><a href="namespace-Reborn.Http.html">Http</a>
 							</li>
-					<li><a href="namespace-Reborn.Module.html">Module</a>
+					<li><a href="namespace-Reborn.Mail.html">Mail</a>
 							</li>
+					<li><a href="namespace-Reborn.Module.html">Module<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Module.Handler.html">Handler</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.MVC.html">MVC<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.MVC.Controller.html">Controller<span></span></a>
@@ -113,15 +127,37 @@
 					<li><a href="namespace-Reborn.MVC.View.Handler.html">Handler</a>
 							</li>
 								</ul></li></ul></li>
+					<li><a href="namespace-Reborn.Pagination.html">Pagination</a>
+							</li>
+					<li><a href="namespace-Reborn.Parser.html">Parser</a>
+							</li>
 					<li><a href="namespace-Reborn.Presenter.html">Presenter</a>
 							</li>
-					<li><a href="namespace-Reborn.Route.html">Route</a>
+					<li><a href="namespace-Reborn.Routing.html">Routing</a>
 							</li>
+					<li><a href="namespace-Reborn.Table.html">Table<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.Table.DataTable.html">DataTable</a>
+							</li>
+								</ul></li>
 					<li><a href="namespace-Reborn.Translate.html">Translate<span></span></a>
 							<ul>
 					<li><a href="namespace-Reborn.Translate.Loader.html">Loader</a>
 							</li>
 								</ul></li>
+					<li><a href="namespace-Reborn.UI.html">UI<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.JqueryUi.html">JqueryUi</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.html">Solid<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Facade.html">Facade</a>
+							</li>
+					<li><a href="namespace-Reborn.UI.Solid.Form.html">Form<span></span></a>
+							<ul>
+					<li><a href="namespace-Reborn.UI.Solid.Form.Field.html">Field</a>
+							</li>
+								</ul></li></ul></li></ul></li>
 					<li><a href="namespace-Reborn.Util.html">Util</a>
 							</li>
 					<li><a href="namespace-Reborn.Widget.html">Widget</a>
@@ -180,7 +216,7 @@ Illuminate Database.</p>
 
 				<b>Author:</b>
 				Myanmar Links Professional Web Development Team<br />
-		<b>Located at</b> <a href="source-class-Reborn.Connector.DB.DBManager.html#10-127" title="Go to source code">Reborn/Connector/DB/DBManager.php</a><br />
+		<b>Located at</b> <a href="source-class-Reborn.Connector.DB.DBManager.html#11-132" title="Go to source code">Reborn/Connector/DB/DBManager.php</a><br />
 	</div>
 
 
@@ -198,7 +234,7 @@ Illuminate Database.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_initialize">#</a>
-		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#23-37" title="Go to source code">initialize</a>( <span>mixed <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
+		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#26-44" title="Go to source code">initialize</a>( <span>mixed <var>$app</var></span>, <span>mixed <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
 
 		<div class="description short">
 			
@@ -231,7 +267,7 @@ Illuminate Database.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#___construct">#</a>
-		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#39-66" title="Go to source code">__construct</a>( <span>string <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
+		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#46-69" title="Go to source code">__construct</a>( <span>string <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
 
 		<div class="description short">
 			
@@ -273,7 +309,7 @@ Illuminate Database.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_setEloquent">#</a>
-		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#68-76" title="Go to source code">setEloquent</a>( )</code>
+		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#71-79" title="Go to source code">setEloquent</a>( )</code>
 
 		<div class="description short">
 			
@@ -298,7 +334,7 @@ Illuminate Database.</p>
 	<tr data-order="getDefaultConnectionName" id="_getDefaultConnectionName">
 
 		<td class="attributes"><code>
-			 protected static
+			 public static
 			string
 			
 			</code>
@@ -306,7 +342,7 @@ Illuminate Database.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getDefaultConnectionName">#</a>
-		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#78-86" title="Go to source code">getDefaultConnectionName</a>( )</code>
+		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#81-89" title="Go to source code">getDefaultConnectionName</a>( )</code>
 
 		<div class="description short">
 			
@@ -343,7 +379,7 @@ Illuminate Database.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_getConfig">#</a>
-		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#88-109" title="Go to source code">getConfig</a>( <span>string <var>$name</var></span> )</code>
+		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#91-112" title="Go to source code">getConfig</a>( <span>string <var>$name</var></span> )</code>
 
 		<div class="description short">
 			
@@ -385,7 +421,7 @@ Illuminate Database.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#___call">#</a>
-		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#111-117" title="Go to source code">__call</a>( <span>mixed <var>$method</var></span>, <span>mixed <var>$param</var> = <span class="php-keyword1">array</span>()</span> )</code>
+		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#114-121" title="Go to source code">__call</a>( <span>mixed <var>$method</var></span>, <span>mixed <var>$param</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			
@@ -414,7 +450,7 @@ Illuminate Database.</p>
 
 		<td class="name"><div>
 		<a class="anchor" href="#___callStatic">#</a>
-		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#119-125" title="Go to source code">__callStatic</a>( <span>mixed <var>$method</var></span>, <span>mixed <var>$param</var> = <span class="php-keyword1">array</span>()</span> )</code>
+		<code><a href="source-class-Reborn.Connector.DB.DBManager.html#123-130" title="Go to source code">__callStatic</a>( <span>mixed <var>$method</var></span>, <span>mixed <var>$param</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
 		<div class="description short">
 			
@@ -454,7 +490,7 @@ Illuminate Database.</p>
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-Reborn.Connector.DB.DBManager.html#19" title="Go to source code"><var>$connections</var></a>
+				<a href="source-class-Reborn.Connector.DB.DBManager.html#20" title="Go to source code"><var>$connections</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">null</span></code></td>
 		<td class="description"><div>
@@ -477,11 +513,34 @@ Illuminate Database.</p>
 		</code></td>
 
 		<td class="name">
-				<a href="source-class-Reborn.Connector.DB.DBManager.html#21" title="Go to source code"><var>$eloquentIsSet</var></a>
+				<a href="source-class-Reborn.Connector.DB.DBManager.html#22" title="Go to source code"><var>$eloquentIsSet</var></a>
 		</td>
 		<td class="value"><code><span class="php-keyword1">false</span></code></td>
 		<td class="description"><div>
 			<a href="#$eloquentIsSet" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="app" id="$app">
+		<td class="attributes"><code>
+			protected static 
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Reborn.Connector.DB.DBManager.html#24" title="Go to source code"><var>$app</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$app" class="anchor">#</a>
 
 			<div class="description short">
 				
@@ -504,7 +563,7 @@ Illuminate Database.</p>
 
 			<div id="footer">
 				<div id="rb-logo"></div>
-				Reborn CMS 2.0 API API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+				Reborn CMS Version 2.0 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
 			</div>
 		</div>
 	</div>
